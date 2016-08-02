@@ -1,7 +1,7 @@
 lastAccountName: GTBebbo
 timestamps:
   login: 1470084570205
-  logout: 1470084089143
+  logout: 1470089144746
 ipAddress: 92.11.101.19
 lastlocation:
   world: world
@@ -15,5 +15,5 @@ logoutlocation:
   x: 320.5
   y: 77.0
   z: 284.5
-  yaw: -291.46442
-  pitch: 21.149982
+  yaw: -43.03479
+  pitch: 52.50002
