@@ -1,51 +1,51 @@
-[18:05:39] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[18:05:39] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[18:05:39] [Server thread/INFO]: Loading properties
-[18:05:39] [Server thread/INFO]: Default game type: SURVIVAL
-[18:05:39] [Server thread/INFO]: Generating keypair
-[18:05:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:05:39] [Server thread/INFO]: Using epoll channel type
-[18:05:39] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0ebb9c7 (MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
-[18:05:40] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b421
-[18:05:40] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.0.1-b421
-[18:05:40] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b421
-[18:05:40] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b421
-[18:05:40] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0.1-b332
-[18:05:40] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.0.1-b421
-[18:05:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:05:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:05:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:05:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:05:40] [Server thread/INFO]: Preparing level "world"
-[18:05:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: 153184449)
-[18:05:43] [Server thread/INFO]: Preparing spawn area: 0%
-[18:05:44] [Server thread/INFO]: Preparing spawn area: 10%
-[18:05:45] [Server thread/INFO]: Preparing spawn area: 44%
-[18:05:46] [Server thread/INFO]: Preparing spawn area: 78%
-[18:05:46] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8335513622996150606)
-[18:05:47] [Server thread/INFO]: Preparing spawn area: 52%
-[18:05:48] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8335513622996150606)
-[18:05:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b421
-[18:05:49] [Server thread/INFO]: Using locale en_US
-[18:05:49] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[18:05:49] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
-[18:05:49] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[18:05:50] [Server thread/INFO]: Using locale en_US
-[18:05:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
-[18:05:50] [Server thread/WARN]: [Essentials] Detected supported permissions plugin GroupManager without Vault installed.
-[18:05:50] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[18:05:50] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[18:05:50] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.0.1-b421
-[18:05:50] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b421
-[18:05:50] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b421
-[18:05:50] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0.1-b332
-[18:05:50] [Server thread/INFO]: GroupManager - INFO - World Found: world
-[18:05:50] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
-[18:05:50] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
-[18:05:50] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
-[18:05:50] [Server thread/INFO]: GroupManager version 2.0.1-b332 is enabled!
-[18:05:50] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.0.1-b421
-[18:05:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:05:51] [Server thread/INFO]: Done (10.803s)! For help, type "help" or "?"
-[18:05:51] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
-[18:05:58] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5841ms behind, skipping 116 tick(s)
+[04:12:03] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[04:12:03] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[04:12:03] [Server thread/INFO]: Loading properties
+[04:12:03] [Server thread/INFO]: Default game type: SURVIVAL
+[04:12:03] [Server thread/INFO]: Generating keypair
+[04:12:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:12:04] [Server thread/INFO]: Using epoll channel type
+[04:12:04] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0ebb9c7 (MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
+[04:12:05] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b421
+[04:12:05] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.0.1-b421
+[04:12:05] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b421
+[04:12:05] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b421
+[04:12:05] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0.1-b332
+[04:12:05] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.0.1-b421
+[04:12:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:12:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:12:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:12:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:12:05] [Server thread/INFO]: Preparing level "world"
+[04:12:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: 153184449)
+[04:12:07] [Server thread/INFO]: Preparing spawn area: 0%
+[04:12:08] [Server thread/INFO]: Preparing spawn area: 15%
+[04:12:09] [Server thread/INFO]: Preparing spawn area: 53%
+[04:12:10] [Server thread/INFO]: Preparing spawn area: 91%
+[04:12:10] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8335513622996150606)
+[04:12:11] [Server thread/INFO]: Preparing spawn area: 63%
+[04:12:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8335513622996150606)
+[04:12:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b421
+[04:12:13] [Server thread/INFO]: Using locale en_US
+[04:12:13] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[04:12:13] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[04:12:13] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[04:12:14] [Server thread/INFO]: Using locale en_US
+[04:12:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[04:12:14] [Server thread/WARN]: [Essentials] Detected supported permissions plugin GroupManager without Vault installed.
+[04:12:14] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[04:12:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[04:12:14] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.0.1-b421
+[04:12:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b421
+[04:12:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b421
+[04:12:14] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0.1-b332
+[04:12:14] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[04:12:14] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[04:12:14] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[04:12:14] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[04:12:14] [Server thread/INFO]: GroupManager version 2.0.1-b332 is enabled!
+[04:12:14] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.0.1-b421
+[04:12:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:12:15] [Server thread/INFO]: Done (10.329s)! For help, type "help" or "?"
+[04:12:15] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[04:12:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5938ms behind, skipping 118 tick(s)
