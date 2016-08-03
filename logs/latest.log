@@ -1,51 +1,160 @@
-[04:12:03] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[04:12:03] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[04:12:03] [Server thread/INFO]: Loading properties
-[04:12:03] [Server thread/INFO]: Default game type: SURVIVAL
-[04:12:03] [Server thread/INFO]: Generating keypair
-[04:12:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:12:04] [Server thread/INFO]: Using epoll channel type
-[04:12:04] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0ebb9c7 (MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
-[04:12:05] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b421
-[04:12:05] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.0.1-b421
-[04:12:05] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b421
-[04:12:05] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b421
-[04:12:05] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0.1-b332
-[04:12:05] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.0.1-b421
-[04:12:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:12:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:12:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:12:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:12:05] [Server thread/INFO]: Preparing level "world"
-[04:12:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: 153184449)
-[04:12:07] [Server thread/INFO]: Preparing spawn area: 0%
-[04:12:08] [Server thread/INFO]: Preparing spawn area: 15%
-[04:12:09] [Server thread/INFO]: Preparing spawn area: 53%
-[04:12:10] [Server thread/INFO]: Preparing spawn area: 91%
-[04:12:10] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8335513622996150606)
-[04:12:11] [Server thread/INFO]: Preparing spawn area: 63%
-[04:12:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8335513622996150606)
-[04:12:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b421
-[04:12:13] [Server thread/INFO]: Using locale en_US
-[04:12:13] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[04:12:13] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
-[04:12:13] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[04:12:14] [Server thread/INFO]: Using locale en_US
-[04:12:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
-[04:12:14] [Server thread/WARN]: [Essentials] Detected supported permissions plugin GroupManager without Vault installed.
-[04:12:14] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[04:12:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[04:12:14] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.0.1-b421
-[04:12:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b421
-[04:12:14] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b421
-[04:12:14] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0.1-b332
-[04:12:14] [Server thread/INFO]: GroupManager - INFO - World Found: world
-[04:12:14] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
-[04:12:14] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
-[04:12:14] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
-[04:12:14] [Server thread/INFO]: GroupManager version 2.0.1-b332 is enabled!
-[04:12:14] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.0.1-b421
-[04:12:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:12:15] [Server thread/INFO]: Done (10.329s)! For help, type "help" or "?"
-[04:12:15] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
-[04:12:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5938ms behind, skipping 118 tick(s)
+[11:10:35] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[11:10:35] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[11:10:35] [Server thread/INFO]: Loading properties
+[11:10:35] [Server thread/INFO]: Default game type: SURVIVAL
+[11:10:35] [Server thread/INFO]: Generating keypair
+[11:10:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:10:36] [Server thread/INFO]: Using epoll channel type
+[11:10:36] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0ebb9c7 (MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
+[11:10:37] [Server thread/INFO]: [Lockette] Loading Lockette v1.8.23
+[11:10:37] [Server thread/INFO]: [PermissionsBukkit] Loading PermissionsBukkit v2.5
+[11:10:37] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b421
+[11:10:37] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.0.1-b421
+[11:10:37] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b421
+[11:10:37] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b421
+[11:10:37] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0.1-b332
+[11:10:37] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.0.1-b421
+[11:10:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:10:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:10:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:10:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:10:37] [Server thread/INFO]: Preparing level "world"
+[11:10:37] [Server thread/INFO]: Preparing start region for level 0 (Seed: 153184449)
+[11:10:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:10:40] [Server thread/INFO]: Preparing spawn area: 9%
+[11:10:41] [Server thread/INFO]: Preparing spawn area: 21%
+[11:10:42] [Server thread/INFO]: Preparing spawn area: 45%
+[11:10:43] [Server thread/INFO]: Preparing spawn area: 87%
+[11:10:43] [Server thread/INFO]: Preparing start region for level 1 (Seed: 153184449)
+[11:10:44] [Server thread/ERROR]: Chunk file at -5,-9 is in the wrong location; relocating. (Expected -5, -9, got -2, -12)
+[11:10:44] [Server thread/INFO]: Preparing spawn area: 41%
+[11:10:46] [Server thread/INFO]: Preparing spawn area: 54%
+[11:10:47] [Server thread/INFO]: Preparing spawn area: 56%
+[11:10:47] [Server thread/ERROR]: Chunk file at 4,-11 is in the wrong location; relocating. (Expected 4, -11, got 8, -4)
+[11:10:47] [Server thread/ERROR]: Chunk file at 4,-10 is in the wrong location; relocating. (Expected 4, -10, got 10, -10)
+[11:10:47] [Server thread/ERROR]: Chunk file at 4,-9 is in the wrong location; relocating. (Expected 4, -9, got 2, -12)
+[11:10:48] [Server thread/INFO]: Preparing spawn area: 67%
+[11:10:48] [Server thread/ERROR]: Chunk file at 5,-12 is in the wrong location; relocating. (Expected 5, -12, got 7, -1)
+[11:10:48] [Server thread/ERROR]: Chunk file at 6,-12 is in the wrong location; relocating. (Expected 6, -12, got 8, -2)
+[11:10:49] [Server thread/ERROR]: Chunk file at 6,-9 is in the wrong location; relocating. (Expected 6, -9, got 10, -4)
+[11:10:49] [Server thread/INFO]: Preparing spawn area: 74%
+[11:10:49] [Server thread/ERROR]: Chunk file at 7,-10 is in the wrong location; relocating. (Expected 7, -10, got 6, -2)
+[11:10:49] [Server thread/ERROR]: Chunk file at 8,-7 is in the wrong location; relocating. (Expected 8, -7, got 11, -3)
+[11:10:49] [Server thread/ERROR]: Chunk file at 8,-5 is in the wrong location; relocating. (Expected 8, -5, got 0, -12)
+[11:10:50] [Server thread/INFO]: Preparing spawn area: 83%
+[11:10:50] [Server thread/ERROR]: Chunk file at 9,-8 is in the wrong location; relocating. (Expected 9, -8, got 9, -1)
+[11:10:50] [Server thread/ERROR]: Chunk file at 9,-6 is in the wrong location; relocating. (Expected 9, -6, got 9, -3)
+[11:10:51] [Server thread/ERROR]: Chunk file at 10,-7 is in the wrong location; relocating. (Expected 10, -7, got 12, -6)
+[11:10:51] [Server thread/ERROR]: Chunk file at 10,-5 is in the wrong location; relocating. (Expected 10, -5, got 3, -11)
+[11:10:51] [Server thread/ERROR]: Chunk file at 11,-8 is in the wrong location; relocating. (Expected 11, -8, got 11, -1)
+[11:10:51] [Server thread/ERROR]: Chunk file at 11,-6 is in the wrong location; relocating. (Expected 11, -6, got 6, -4)
+[11:10:51] [Server thread/INFO]: Preparing spawn area: 94%
+[11:10:51] [Server thread/ERROR]: Chunk file at 12,-3 is in the wrong location; relocating. (Expected 12, -3, got 7, -3)
+[11:10:51] [Server thread/ERROR]: Chunk file at 12,-1 is in the wrong location; relocating. (Expected 12, -1, got 10, -2)
+[11:10:51] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8335513622996150606)
+[11:10:52] [Server thread/INFO]: [Lockette] Enabling Lockette v1.8.23
+[11:10:52] [Server thread/INFO]: [Lockette] Version 1.8.23 is being enabled!  Yay!  (Core version 1.3.5)
+[11:10:52] [Server thread/INFO]: minor >
+[11:10:52] [Server thread/INFO]: [Lockette] Detected Bukkit version [v1_10_R1] ok.
+[11:10:52] [Server thread/INFO]: [Lockette] Custom lockable block list: [116, 84, 57, 145, 154]
+[11:10:52] [Server thread/INFO]: [Lockette] Ignoring linked plugins: [mcMMO]
+[11:10:52] [Server thread/INFO]: [Lockette] Loading strings file for English by Acru
+[11:10:52] [Server thread/INFO]: [Lockette] Using ops file for admin permissions.
+[11:10:52] [Server thread/INFO]: [Lockette] Ready to protect your containers.
+[11:10:52] [Server thread/INFO]: [PermissionsBukkit] Enabling PermissionsBukkit v2.5
+[11:10:52] [Server thread/INFO]: [PermissionsBukkit] Enabled successfully
+[11:10:52] [Server thread/INFO]: [Lockette] Enabled link to plugin PermissionsBukkit for Groups, version 2.5
+[11:10:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b421
+[11:10:53] [Server thread/INFO]: Using locale en_US
+[11:10:53] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[11:10:53] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[11:10:53] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[11:10:53] [Server thread/INFO]: Using locale en_US
+[11:10:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[11:10:54] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsBukkit without Vault installed.
+[11:10:54] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:10:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:10:54] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.0.1-b421
+[11:10:54] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b421
+[11:10:54] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b421
+[11:10:54] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0.1-b332
+[11:10:54] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[11:10:54] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[11:10:54] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[11:10:54] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[11:10:54] [Server thread/INFO]: GroupManager version 2.0.1-b332 is enabled!
+[11:10:54] [Server thread/INFO]: [Lockette] Enabled link to plugin GroupManager for Groups, version 2.0.1-b332
+[11:10:54] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.0.1-b421
+[11:10:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:10:54] [Server thread/INFO]: Done (17.848s)! For help, type "help" or "?"
+[11:10:54] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[11:10:57] [Server thread/INFO]: CaptainBetts[/88.202.251.56:56141] logged in with entity id 329 at ([world]1296.5038962314034, 40.72808613470315, 1864.7754681771862)
+[11:11:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6716ms behind, skipping 134 tick(s)
+[11:11:23] [Server thread/INFO]: CONSOLE issued server command: /bc so now permission managing is enabled, tell me if anything is wrong
+[11:11:41] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> 'You can't build here'[m
+[11:12:15] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> 'You don't have permission to build here'[m
+[11:12:18] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> Everywhere[m
+[11:14:43] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+[11:14:44] [Server thread/INFO]: CONSOLE issued server command: /gm 
+[11:14:44] [Server thread/INFO]: Change player gamemode.[m
+[11:14:44] [Server thread/INFO]: /gm <survival|creative|adventure|spectator> [player][m
+[11:15:09] [Server thread/INFO]: [0;32;1mConfiguration reloaded.[m
+[11:15:15] [Server thread/INFO]: CONSOLE issued server command: /bc what about now?
+[11:15:19] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> nah[m
+[11:16:15] [Server thread/INFO]: [0;32;1mConfiguration reloaded.[m
+[11:16:18] [Server thread/INFO]: CONSOLE issued server command: /bc now?
+[11:16:22] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> Yeah[m
+[11:16:30] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> Thanks :)[m
+[11:16:32] [Server thread/INFO]: CaptainBetts issued server command: /sethome
+[11:16:32] [Server thread/INFO]: §cCaptainBetts §4was denied access to command.
+[11:16:52] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> Not to /home though, but I can build :D[m
+[11:17:38] [Server thread/INFO]: [0;32;1mConfiguration reloaded.[m
+[11:17:39] [Server thread/INFO]: CONSOLE issued server command: /bc now?
+[11:17:45] [Server thread/INFO]: CaptainBetts issued server command: /sethome
+[11:17:47] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> YAY[m
+[11:17:54] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU[m
+[11:17:54] [Server thread/INFO]: CONSOLE issued server command: /bc what about spawn?
+[11:17:58] [Server thread/INFO]: CaptainBetts issued server command: /SPAWN
+[11:18:00] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> YEAH[m
+[11:18:02] [Server thread/INFO]: CaptainBetts issued server command: /HOME
+[11:18:12] [Server thread/INFO]: CONSOLE issued server command: /bc and delhome as well
+[11:18:18] [Server thread/INFO]: CaptainBetts issued server command: /delhome
+[11:18:21] [Server thread/INFO]: CaptainBetts issued server command: /delhome home
+[11:18:23] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> Yeah![m
+[11:18:27] [Server thread/INFO]: CaptainBetts issued server command: /sethome
+[11:20:54] [pool-6-thread-1/INFO]: Newer GlobalGroups file found (Loading changes)!
+[11:20:54] [pool-6-thread-1/INFO]: Newer Groups file found (Loading changes)!
+[11:20:54] [pool-6-thread-1/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_builder' not found for group Builder. Ignoring entry in file: plugins/GroupManager/worlds/world/groups.yml
+[11:20:54] [pool-6-thread-1/WARN]: GroupManager - WARNING - Inherited group 'g:essentials_builder' not found for group Default. Ignoring entry in file: plugins/GroupManager/worlds/world/groups.yml
+[11:20:54] [pool-6-thread-1/INFO]: GroupManager - INFO -  Data files refreshed.
+[11:25:55] [Server thread/INFO]: [0;32;1mConfiguration reloaded.[m
+[11:26:05] [Server thread/INFO]: CONSOLE issued server command: /bc now you just have a load of stuff
+[11:26:10] [Server thread/INFO]: CONSOLE issued server command: /bc like BACK
+[11:26:16] [Netty Epoll Server IO #1/INFO]: [m<CaptainBetts[m> Woo![m
+[11:26:17] [Server thread/INFO]: CONSOLE issued server command: /bc use help to see what you can do
+[11:26:23] [Server thread/INFO]: CaptainBetts issued server command: /help
+[11:26:30] [Server thread/INFO]: CaptainBetts issued server command: /depth
+[11:26:37] [Server thread/INFO]: CaptainBetts issued server command: /help 2
+[11:26:50] [Server thread/INFO]: CaptainBetts issued server command: /getpos CaptainBetts
+[11:27:11] [Server thread/INFO]: CaptainBetts issued server command: /info
+[11:27:23] [Server thread/INFO]: CaptainBetts issued server command: /help 3
+[11:27:30] [Server thread/INFO]: CaptainBetts issued server command: /modt
+[11:27:32] [Server thread/INFO]: CaptainBetts issued server command: /motd
+[11:27:39] [Server thread/INFO]: CaptainBetts issued server command: /nick Betts
+[11:27:46] [Server thread/INFO]: CaptainBetts issued server command: /ping
+[11:27:52] [Server thread/INFO]: CaptainBetts issued server command: /realname Betts
+[11:27:57] [Server thread/INFO]: CaptainBetts issued server command: /rules
+[11:28:02] [Server thread/INFO]: CaptainBetts issued server command: /help 4
+[11:28:12] [Server thread/INFO]: CaptainBetts issued server command: /whois Betts
+[11:28:31] [Server thread/INFO]: CaptainBetts issued server command: /whois GTBebbo
+[11:28:39] [Server thread/INFO]: CaptainBetts issued server command: /whois rightsformuffins
+[11:28:44] [Server thread/INFO]: CaptainBetts issued server command: /worth
+[11:28:49] [Server thread/INFO]: CaptainBetts issued server command: /help 5
+[11:29:28] [Server thread/INFO]: CaptainBetts issued server command: /tp
+[11:29:28] [Server thread/INFO]: §cCaptainBetts §4was denied access to command.
+[11:30:34] [Server thread/INFO]: [0;32;1mConfiguration reloaded.[m
+[11:30:46] [Server thread/INFO]: CONSOLE issued server command: /bc and now everyone has access to really dangerous commands
+[11:30:50] [Server thread/INFO]: CONSOLE issued server command: /bc like save-all
+[11:30:52] [Server thread/INFO]: CONSOLE issued server command: /bc and stop
+[11:30:54] [Netty Epoll Server IO #1/INFO]: [m<~Betts[m> wow[m
+[11:31:10] [Server thread/INFO]: CONSOLE issued server command: /bc the server is on a continuous loop anyway, so it shouldn't matter
