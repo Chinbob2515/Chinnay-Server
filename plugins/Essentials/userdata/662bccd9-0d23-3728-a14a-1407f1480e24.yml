@@ -1,7 +1,7 @@
 lastAccountName: GTBebbo
 timestamps:
-  login: 1470084570205
-  logout: 1470089144746
+  login: 1470267301569
+  logout: 1470267191286
 ipAddress: 92.11.101.19
 lastlocation:
   world: world
@@ -12,8 +12,17 @@ lastlocation:
   pitch: 0.0
 logoutlocation:
   world: world
-  x: 320.5
+  x: 319.869608013977
   y: 77.0
-  z: 284.5
-  yaw: -43.03479
-  pitch: 52.50002
+  z: 265.69112692194966
+  yaw: -273.6081
+  pitch: 7.800027
+homes:
+  home:
+    world: world
+    x: 321.6492517879681
+    y: 77.0
+    z: 275.4358403648996
+    yaw: -271.18335
+    pitch: -2.1000552
+nickname: TheChosenJuan

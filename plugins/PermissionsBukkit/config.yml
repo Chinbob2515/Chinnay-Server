@@ -75,13 +75,24 @@ groups:
             essentials.suicide: true
             essentials.clearinventory: true
             essentials.ping: true
+            essentials.back: true
             essentials.spawn: true
+            essentials.chat.color: true
             bukkit.command.version: true
             bukkit.command.ban.list: true
             bukkit.command.stop: true
             bukkit.command.say: true
             bukkit.command.tell: true
             bukkit.command.save.perform: true
+            bukkit.command.save: true
+            bukkit.command.save-all: true
+            lockette.user.*: true
+#            : true
+#            : true
+#            : true
+#            : true
+#            : true
+#            : true
 #            : true
     admin:
         permissions:

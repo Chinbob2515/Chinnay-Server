@@ -1,29 +1,29 @@
 lastAccountName: CaptainBetts
 timestamps:
-  login: 1470237057933
-  logout: 1470233968682
-  lastteleport: 1470237482607
+  login: 1470324038134
+  logout: 1470320801855
+  lastteleport: 1470324096701
 ipAddress: 88.202.251.56
 lastlocation:
-  world: world
-  x: 228.5
-  y: 67.0
-  z: 252.5
-  yaw: 0.0
-  pitch: 0.0
+  world: world_nether
+  x: 22.777513692475733
+  y: 49.0
+  z: 31.17923980060774
+  yaw: -270.44998
+  pitch: 68.4
 logoutlocation:
   world: world
-  x: 367.75037055127825
-  y: 100.85999891161919
-  z: 379.49167089556613
-  yaw: -31.349936
-  pitch: 16.500015
+  x: 1283.228536651036
+  y: 40.0
+  z: 1848.5117869624848
+  yaw: 11.547119
+  pitch: 3.0000083
 homes:
   home:
     world: world
-    x: 1284.1897942040082
-    y: 40.0
-    z: 1861.939559981165
-    yaw: 324.5975
-    pitch: 6.599846
+    x: 1292.5
+    y: 48.0
+    z: 1870.5
+    yaw: 265.79993
+    pitch: 31.05002
 nickname: Betts

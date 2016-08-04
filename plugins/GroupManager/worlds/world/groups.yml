@@ -19,6 +19,7 @@ groups:
     - g:essentials_default
     - g:essentials_builder
     - g:towny_default
+    - essentials.chat.color
     info:
       prefix: '&e'
       build: false
