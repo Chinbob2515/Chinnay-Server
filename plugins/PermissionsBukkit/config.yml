@@ -21,93 +21,80 @@
 # groups. Like user permissions, groups may override the permissions of their
 # parent group(s). Unlike users, groups do NOT automatically inherit from
 # default. World permissions may be assigned to groups with a 'worlds:' entry.
-#
-# The cannot-build message is configurable. If it is left blank, no message
-# will be displayed to the player if PermissionsBukkit prevents them from
-# building, digging, or interacting with a block. Use '&' characters to
-# signify color codes.
-
 users:
-    ConspiracyWizard:
-        permissions:
-            permissions.example: true
-        groups:
-        - admin
+  ConspiracyWizard:
+    permissions:
+      permissions.example: true
+    groups:
+    - admin
 groups:
-    default:
-        permissions:
-            permissions.build: true
-            essentials.sethome: true
-            essentials.home: true
-            essentials.delhome: true
-            essentials.tpa: true
-            essentials.tpaccept: true
-            essentials.tpdeny: true
-            essentials.tptoggle: true
-            essentials.warp: true
-            essentials.warp.list: true
-            essentials.warps.*: true
-            essentials.balance: true
-            essentials.balancetop: true
-            essentials.pay: true
-            essentials.sell: true
-            essentials.worth: true
-            essentials.afk: true
-            essentials.depth: true
-            essentials.getpos: true
-            essentials.help: true
-            essentials.helpop: true
-            essentials.ignore: true
-            essentials.info: true
-            essentials.itemdb: true
-            essentials.list: true
-            essentials.mail: true
-            essentials.mail.send: true
-            essentials.mail.sendall: true
-            essentials.me: true
-            essentials.motd: true
-            essentials.msg: true
-            essentials.nick: true
-            essentials.msg.*: true
-            essentials.realname: true
-            essentials.rules: true
-            essentials.whois: true
-            essentials.suicide: true
-            essentials.clearinventory: true
-            essentials.ping: true
-            essentials.back: true
-            essentials.spawn: true
-            essentials.chat.color: true
-            bukkit.command.version: true
-            bukkit.command.ban.list: true
-            bukkit.command.stop: true
-            bukkit.command.say: true
-            bukkit.command.tell: true
-            bukkit.command.save.perform: true
-            bukkit.command.save: true
-            bukkit.command.save-all: true
-            lockette.user.*: true
-#            : true
-#            : true
-#            : true
-#            : true
-#            : true
-#            : true
-#            : true
-    admin:
-        permissions:
-            permissions.*: true
-        inheritance:
-        - user
-    user:
-        permissions:
-            permissions.build: true
-        worlds:
-            creative:
-                coolplugin.item: true
-        inheritance:
-        - default
+  default:
+    permissions:
+      permissions.build: true
+      essentials.sethome: true
+      essentials.home: true
+      essentials.delhome: true
+      essentials.tpa: true
+      essentials.tpaccept: true
+      essentials.tpdeny: true
+      essentials.tptoggle: true
+      essentials.warp: true
+      essentials.warp.list: true
+      essentials.warps.*: true
+      essentials.balance: true
+      essentials.balancetop: true
+      essentials.pay: true
+      essentials.sell: true
+      essentials.worth: true
+      essentials.afk: true
+      essentials.depth: true
+      essentials.getpos: true
+      essentials.help: true
+      essentials.helpop: true
+      essentials.ignore: true
+      essentials.info: true
+      essentials.itemdb: true
+      essentials.list: true
+      essentials.mail: true
+      essentials.mail.send: true
+      essentials.mail.sendall: true
+      essentials.me: true
+      essentials.motd: true
+      essentials.msg: true
+      essentials.nick: true
+      essentials.msg.*: true
+      essentials.realname: true
+      essentials.rules: true
+      essentials.whois: true
+      essentials.suicide: true
+      essentials.clearinventory: true
+      essentials.ping: true
+      essentials.back: true
+      essentials.spawn: true
+      essentials.chat.color: true
+      bukkit.command.version: true
+      bukkit.command.ban.list: true
+      bukkit.command.stop: true
+      bukkit.command.say: true
+      bukkit.command.tell: true
+      bukkit.command.save.perform: true
+      bukkit.command.save: true
+      bukkit.command.save-all: true
+      lockette.user.*: true
+      essentials.chat.*: true
+  admin:
+    permissions:
+      permissions.*: true
+    inheritance:
+    - user
+  user:
+    permissions:
+      permissions.build: true
+    worlds:
+      creative:
+        coolplugin.item: true
+    inheritance:
+    - default
 messages:
-    build: '&cYou do not have permission to build here.'
-
+  build: '&cYou do not have permission to build here.'
 debug: false

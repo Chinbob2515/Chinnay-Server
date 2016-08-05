@@ -3,7 +3,7 @@ enable-messages-user: true
 enable-messages-owner: false
 enable-messages-admin: true
 enable-messages-error: true
-enable-messages-help: true
+enable-messages-help: false
 explosion-protection-all: true
 enable-chest-rotation: false
 enable-permissions: false
@@ -22,9 +22,11 @@ custom-lockable-block-list:
 - 57
 - 145
 - 154
+- 64
+- 324
 linked-plugin-ignore-list:
 - mcMMO
-broadcast-snoop-target: '[Everyone]'
-broadcast-break-target: '[Everyone]'
+broadcast-snoop-target: '[Operators]'
+broadcast-break-target: '[Operators]'
 broadcast-reload-target: '[Operators]'
 strings-file-name: strings-en.yml
