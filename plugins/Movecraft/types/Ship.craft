@@ -1,6 +1,6 @@
 name: Ship
-maxSize: 100000
-minSize: 10
+maxSize: 5000
+minSize: 25
 allowedBlocks: 
     - 5
     - 10
@@ -89,6 +89,7 @@ allowedBlocks:
     - 157
     - 158
     - 159
+    - 165
     - 171
     - 172
     - 173
@@ -97,7 +98,7 @@ forbiddenBlocks:
     - 7
 
 canCruise: true
-cruiseSkipBlocks: 4
+cruiseSkipBlocks: 2
 canFly: false
 sinkPercent: 99.0
 overallSinkPercent: 60.0
@@ -115,6 +116,12 @@ flyblocks:
         - 0.0
         - 1.0
     49: # so is obsidian
+        - 0.0
+        - 1.0
+    [54,146]: # limit chests to make big airships important for merchant missions
+        - 0.0
+        - N10
+    [23,154]: # dispensers can be used for inventory too, so limit them as well
         - 0.0
         - 1.0
     8: # so is water

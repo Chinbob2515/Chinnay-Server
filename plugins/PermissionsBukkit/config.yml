@@ -30,6 +30,7 @@ users:
 groups:
   default:
     permissions:
+      movecraft.*: true
       permissions.build: true
       essentials.sethome: true
       essentials.home: true
@@ -82,6 +83,11 @@ groups:
       bukkit.command.save-all: true
       lockette.user.*: true
       essentials.chat.*: true
+      movecraft.movecraft.*: true
+      movecraft.*: true
+      movecraft.commands.*: false
+      movecraft.movecraft: true
+#      : true
   admin:
     permissions:
       permissions.*: true

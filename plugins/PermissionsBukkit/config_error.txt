@@ -1,0 +1,12 @@
+Use the following website to help you find and fix configuration errors:
+https://yaml-online-parser.appspot.com/
+
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 85, column 7:
+          movecraft.movecraft.*:true
+          ^
+could not find expected ':'
+ in 'string', line 86, column 7:
+          movecraft.*:true
+          ^
+

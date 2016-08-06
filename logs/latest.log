@@ -1,92 +1,538 @@
-[04:49:01] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[04:49:02] [Server thread/INFO]: Loading properties
-[04:49:02] [Server thread/INFO]: Default game type: SURVIVAL
-[04:49:02] [Server thread/INFO]: Generating keypair
-[04:49:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:49:02] [Server thread/INFO]: Using epoll channel type
-[04:49:02] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0ebb9c7 (MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
-[04:49:03] [Server thread/INFO]: [Lockette] Loading Lockette v1.8.23
-[04:49:03] [Server thread/INFO]: [PermissionsBukkit] Loading PermissionsBukkit v2.5
-[04:49:03] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b421
-[04:49:03] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b421
-[04:49:03] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
-[04:49:03] [Server thread/INFO]: [Movecraft] Loading Movecraft v4.6.0
-[04:49:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:49:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:49:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:49:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:49:03] [Server thread/INFO]: Preparing level "world"
-[04:49:04] [Server thread/INFO]: Preparing start region for level 0 (Seed: 153184449)
-[04:49:05] [Server thread/INFO]: Preparing spawn area: 0%
-[04:49:06] [Server thread/INFO]: Preparing spawn area: 10%
-[04:49:07] [Server thread/INFO]: Preparing spawn area: 45%
-[04:49:08] [Server thread/INFO]: Preparing spawn area: 81%
-[04:49:09] [Server thread/INFO]: Preparing start region for level 1 (Seed: 153184449)
-[04:49:09] [Server thread/ERROR]: Chunk file at -5,-9 is in the wrong location; relocating. (Expected -5, -9, got -2, -12)
-[04:49:10] [Server thread/INFO]: Preparing spawn area: 50%
-[04:49:11] [Server thread/INFO]: Preparing spawn area: 54%
-[04:49:12] [Server thread/INFO]: Preparing spawn area: 64%
-[04:49:12] [Server thread/ERROR]: Chunk file at 4,-11 is in the wrong location; relocating. (Expected 4, -11, got 8, -4)
-[04:49:12] [Server thread/ERROR]: Chunk file at 4,-10 is in the wrong location; relocating. (Expected 4, -10, got 10, -10)
-[04:49:12] [Server thread/ERROR]: Chunk file at 4,-9 is in the wrong location; relocating. (Expected 4, -9, got 2, -12)
-[04:49:12] [Server thread/WARN]: Wrong location! (2, -12) should be (4, -9), EntityPigZombie['Zombie'/430, l='world_nether', x=34.46, y=63.00, z=-183.24]
-[04:49:13] [Server thread/ERROR]: Chunk file at 6,-12 is in the wrong location; relocating. (Expected 6, -12, got 8, -2)
-[04:49:13] [Server thread/ERROR]: Chunk file at 6,-9 is in the wrong location; relocating. (Expected 6, -9, got 10, -4)
-[04:49:13] [Server thread/INFO]: Preparing spawn area: 73%
-[04:49:14] [Server thread/ERROR]: Chunk file at 7,-10 is in the wrong location; relocating. (Expected 7, -10, got 6, -2)
-[04:49:14] [Server thread/ERROR]: Chunk file at 8,-7 is in the wrong location; relocating. (Expected 8, -7, got 11, -3)
-[04:49:14] [Server thread/ERROR]: Chunk file at 8,-5 is in the wrong location; relocating. (Expected 8, -5, got 0, -12)
-[04:49:14] [Server thread/ERROR]: Chunk file at 9,-8 is in the wrong location; relocating. (Expected 9, -8, got 9, -1)
-[04:49:14] [Server thread/WARN]: Wrong location! (9, -1) should be (9, -8), EntityPigZombie['Zombie'/469, l='world_nether', x=144.35, y=35.00, z=-12.65]
-[04:49:14] [Server thread/ERROR]: Chunk file at 9,-6 is in the wrong location; relocating. (Expected 9, -6, got 9, -3)
-[04:49:14] [Server thread/WARN]: Wrong location! (9, -3) should be (9, -6), EntityPigZombie['Zombie'/471, l='world_nether', x=146.50, y=89.00, z=-32.50]
-[04:49:14] [Server thread/INFO]: Preparing spawn area: 86%
-[04:49:15] [Server thread/ERROR]: Chunk file at 10,-7 is in the wrong location; relocating. (Expected 10, -7, got 12, -6)
-[04:49:15] [Server thread/ERROR]: Chunk file at 10,-5 is in the wrong location; relocating. (Expected 10, -5, got 3, -11)
-[04:49:15] [Server thread/ERROR]: Chunk file at 11,-8 is in the wrong location; relocating. (Expected 11, -8, got 11, -1)
-[04:49:15] [Server thread/WARN]: Wrong location! (11, -1) should be (11, -8), EntityPigZombie['Zombie'/483, l='world_nether', x=179.50, y=34.00, z=-5.50]
-[04:49:15] [Server thread/ERROR]: Chunk file at 11,-6 is in the wrong location; relocating. (Expected 11, -6, got 6, -4)
-[04:49:15] [Server thread/ERROR]: Chunk file at 12,-3 is in the wrong location; relocating. (Expected 12, -3, got 7, -3)
-[04:49:15] [Server thread/ERROR]: Chunk file at 12,-1 is in the wrong location; relocating. (Expected 12, -1, got 10, -2)
-[04:49:15] [Server thread/WARN]: Wrong location! (10, -2) should be (12, -1), EntityPigZombie['Zombie'/490, l='world_nether', x=160.50, y=12.00, z=-21.50]
-[04:49:15] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8335513622996150606)
-[04:49:16] [Server thread/INFO]: [Lockette] Enabling Lockette v1.8.23
-[04:49:16] [Server thread/INFO]: [Lockette] Version 1.8.23 is being enabled!  Yay!  (Core version 1.3.5)
-[04:49:16] [Server thread/INFO]: minor >
-[04:49:16] [Server thread/INFO]: [Lockette] Detected Bukkit version [v1_10_R1] ok.
-[04:49:16] [Server thread/INFO]: [Lockette] Custom lockable block list: [116, 84, 57, 145, 154, 64, 324]
-[04:49:16] [Server thread/INFO]: [Lockette] Ignoring linked plugins: [mcMMO]
-[04:49:16] [Server thread/INFO]: [Lockette] Loading strings file for English by Acru
-[04:49:16] [Server thread/INFO]: [Lockette] Using ops file for admin permissions.
-[04:49:16] [Server thread/INFO]: [Lockette] Ready to protect your containers.
-[04:49:16] [Server thread/INFO]: [PermissionsBukkit] Enabling PermissionsBukkit v2.5
-[04:49:16] [Server thread/INFO]: [PermissionsBukkit] Enabled successfully
-[04:49:16] [Server thread/INFO]: [Lockette] Enabled link to plugin PermissionsBukkit for Groups, version 2.5
-[04:49:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b421
-[04:49:16] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
-[04:49:16] [Server thread/INFO]: Using locale en_US
-[04:49:16] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[04:49:16] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
-[04:49:16] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[04:49:17] [Server thread/INFO]: Using locale en_US
-[04:49:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
-[04:49:17] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsBukkit without Vault installed.
-[04:49:17] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[04:49:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[04:49:17] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b421
-[04:49:17] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
-[04:49:17] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
-[04:49:17] [Server thread/INFO]: [Movecraft] Enabling Movecraft v4.6.0
-[04:49:17] [Server thread/INFO]: [Movecraft] Recognized PilotTool setting of: 280
-[04:49:17] [Server thread/INFO]: [Movecraft] WARNING: CompatibilityMode was set to false, but required build-specific classes were not found. FORCING COMPATIBILITY MODE
-[04:49:17] [Server thread/INFO]: [Movecraft] CompatiblityMode is set to true
-[04:49:17] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of WorldGuard. Disabling WorldGuard integration
-[04:49:17] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of WorldEdit. Disabling WorldEdit integration
-[04:49:17] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of Towny. Disabling Towny integration.
-[04:49:17] [Server thread/INFO]: [Movecraft] Found a compatible version of Essentials. Enabling Essentials integration.
-[04:49:17] [Server thread/INFO]: [Movecraft] Could not find compatible Vault plugin. Disabling Vault integration.
-[04:49:17] [Server thread/INFO]: [Movecraft] Loaded 10 Craft files
-[04:49:17] [Server thread/INFO]: [Movecraft] [V 4.6.0] has been enabled.
-[04:49:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:49:17] [Server thread/INFO]: Done (14.027s)! For help, type "help" or "?"
-[04:49:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2464ms behind, skipping 49 tick(s)
+[00:48:26] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[00:48:26] [Server thread/INFO]: Loading properties
+[00:48:26] [Server thread/INFO]: Default game type: SURVIVAL
+[00:48:26] [Server thread/INFO]: Generating keypair
+[00:48:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:48:26] [Server thread/INFO]: Using epoll channel type
+[00:48:26] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0ebb9c7 (MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
+[00:48:27] [Server thread/INFO]: [Lockette] Loading Lockette v1.8.23
+[00:48:27] [Server thread/INFO]: [PermissionsBukkit] Loading PermissionsBukkit v2.5
+[00:48:27] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b421
+[00:48:27] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b421
+[00:48:27] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[00:48:27] [Server thread/INFO]: [Movecraft] Loading Movecraft v4.6.0
+[00:48:27] [Server thread/INFO]: Preparing level "world"
+[00:48:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 153184449)
+[00:48:29] [Server thread/INFO]: Preparing spawn area: 0%
+[00:48:30] [Server thread/INFO]: Preparing spawn area: 27%
+[00:48:31] [Server thread/INFO]: Preparing spawn area: 68%
+[00:48:32] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1452620748)
+[00:48:33] [Server thread/INFO]: Preparing spawn area: 5%
+[00:48:34] [Server thread/INFO]: Preparing spawn area: 8%
+[00:48:35] [Server thread/INFO]: Preparing spawn area: 11%
+[00:48:36] [Server thread/INFO]: Preparing spawn area: 13%
+[00:48:37] [Server thread/INFO]: Preparing spawn area: 24%
+[00:48:38] [Server thread/INFO]: Preparing spawn area: 34%
+[00:48:39] [Server thread/INFO]: Preparing spawn area: 50%
+[00:48:40] [Server thread/INFO]: Preparing spawn area: 56%
+[00:48:41] [Server thread/INFO]: Preparing spawn area: 66%
+[00:48:42] [Server thread/INFO]: Preparing spawn area: 77%
+[00:48:43] [Server thread/INFO]: Preparing spawn area: 88%
+[00:48:44] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8335513622996150606)
+[00:48:44] [Server thread/INFO]: [Lockette] Enabling Lockette v1.8.23
+[00:48:44] [Server thread/INFO]: [Lockette] Version 1.8.23 is being enabled!  Yay!  (Core version 1.3.5)
+[00:48:44] [Server thread/INFO]: minor >
+[00:48:44] [Server thread/INFO]: [Lockette] Detected Bukkit version [v1_10_R1] ok.
+[00:48:44] [Server thread/INFO]: [Lockette] Custom lockable block list: [116, 84, 57, 145, 154, 64, 324]
+[00:48:44] [Server thread/INFO]: [Lockette] Ignoring linked plugins: [mcMMO]
+[00:48:44] [Server thread/INFO]: [Lockette] Loading strings file for English by Acru
+[00:48:44] [Server thread/INFO]: [Lockette] Using ops file for admin permissions.
+[00:48:44] [Server thread/INFO]: [Lockette] Ready to protect your containers.
+[00:48:44] [Server thread/INFO]: [PermissionsBukkit] Enabling PermissionsBukkit v2.5
+[00:48:44] [Server thread/INFO]: [PermissionsBukkit] Enabled successfully
+[00:48:44] [Server thread/INFO]: [Lockette] Enabled link to plugin PermissionsBukkit for Groups, version 2.5
+[00:48:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b421
+[00:48:44] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
+[00:48:44] [Server thread/INFO]: Using locale en_GB
+[00:48:45] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[00:48:45] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[00:48:45] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[00:48:45] [Server thread/INFO]: Using locale en_GB
+[00:48:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[00:48:45] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsBukkit without Vault installed.
+[00:48:45] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[00:48:45] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[00:48:45] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b421
+[00:48:45] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[00:48:45] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[00:48:45] [Server thread/INFO]: [Movecraft] Enabling Movecraft v4.6.0
+[00:48:45] [Server thread/INFO]: [Movecraft] Recognized PilotTool setting of: 280
+[00:48:45] [Server thread/INFO]: [Movecraft] WARNING: CompatibilityMode was set to false, but required build-specific classes were not found. FORCING COMPATIBILITY MODE
+[00:48:45] [Server thread/INFO]: [Movecraft] CompatiblityMode is set to true
+[00:48:45] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of WorldGuard. Disabling WorldGuard integration
+[00:48:45] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of WorldEdit. Disabling WorldEdit integration
+[00:48:45] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of Towny. Disabling Towny integration.
+[00:48:45] [Server thread/INFO]: [Movecraft] Found a compatible version of Essentials. Enabling Essentials integration.
+[00:48:45] [Server thread/INFO]: [Movecraft] Could not find compatible Vault plugin. Disabling Vault integration.
+[00:48:45] [Server thread/INFO]: [Movecraft] Loaded 30 Craft files
+[00:48:45] [Server thread/INFO]: [Movecraft] [V 4.6.0] has been enabled.
+[00:48:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:48:45] [Server thread/INFO]: Done (18.550s)! For help, type "help" or "?"
+[00:48:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2157ms behind, skipping 43 tick(s)
+[00:48:50] [User Authenticator #1/INFO]: UUID of player CaptainBetts is 6bbb8b68-e1de-42e2-911e-8075b2a8d19e
+[00:48:51] [Server thread/INFO]: CaptainBetts[/88.202.251.56:61478] logged in with entity id 306 at ([world]217.63364442659096, 67.0, 244.95400034395604)
+[00:48:52] [User Authenticator #2/INFO]: UUID of player GTBebbo is ba0e0e8b-814c-4a2d-8efd-41dadf196013
+[00:48:52] [Server thread/INFO]: GTBebbo[/92.11.101.19:51535] logged in with entity id 309 at ([world]320.5, 77.0, 284.5)
+[00:48:52] [pool-3-thread-3/WARN]: [Essentials] Permissions lag notice with (SuperpermsHandler). Response took 32.705997ms. Summary: Getting group for GTBebbo
+[00:48:59] [Netty Epoll Server IO #1/INFO]: <~Betts> WBSTER
+[00:49:04] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> i changed the seed to "nootnoot"
+[00:49:07] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok :P
+[00:49:15] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2124ms behind, skipping 42 tick(s)
+[00:49:16] [Server thread/WARN]: CaptainBetts moved too quickly! -154.1379778909965,-8.0,-214.24303318138666
+[00:49:32] [Netty Epoll Server IO #1/INFO]: <~Betts> Looks good atm
+[00:49:34] [Server thread/INFO]: CaptainBetts issued server command: /home
+[00:49:45] [Server thread/WARN]: GTBebbo moved too quickly! -154.23034778799726,-8.0,-214.10447833588546
+[00:50:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6113ms behind, skipping 122 tick(s)
+[00:50:00] [Server thread/WARN]: GTBebbo moved too quickly! -5.513757166652404,0.8476648131494429,10.735605473150201
+[00:50:00] [Server thread/WARN]: CaptainBetts moved too quickly! -1109.0,11.0,-1647.8972603448067
+[00:50:32] [Server thread/INFO]: GTBebbo issued server command: /tpa CaptainBetts
+[00:50:38] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[00:50:52] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[00:50:59] [Server thread/WARN]: GTBebbo moved too quickly! -154.6534693819232,-8.0,-213.4697959449966
+[00:50:59] [Server thread/WARN]: CaptainBetts moved too quickly! -154.02654986125626,-8.0,-214.410175225997
+[00:54:17] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> found it
+[00:54:22] [Netty Epoll Server IO #1/INFO]: <~Betts> uyay
+[00:56:32] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> found anything good?
+[00:56:38] [Netty Epoll Server IO #1/INFO]: <~Betts> netherrack?
+[00:56:48] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> lol, me neither
+[00:57:32] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebbo
+[00:57:32] [Server thread/INFO]: Healed ~TheChosenJuan.
+[00:58:12] [Netty Epoll Server IO #1/INFO]: <~Betts> blaze
+[00:58:40] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[00:58:51] [Server thread/INFO]: GTBebbo was slain by Skeleton
+[00:58:56] [Server thread/INFO]: GTBebbo issued server command: /back
+[00:58:57] [Server thread/INFO]: CaptainBetts issued server command: /home
+[00:59:02] [Netty Epoll Server IO #1/INFO]: <~Betts> wow
+[00:59:03] [Server thread/INFO]: GTBebbo issued server command: /tpa CaptainBetts
+[00:59:07] [Netty Epoll Server IO #1/INFO]: <~Betts> Was about to be killed
+[00:59:10] [Netty Epoll Server IO #1/INFO]: <~Betts> Did /home
+[00:59:14] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> f u
+[00:59:30] [Netty Epoll Server IO #1/INFO]: <~Betts> Attacked by 9 pigmen and 4 blazes and 1 wither skeleton
+[00:59:40] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> same except, 2 withers
+[00:59:43] [Netty Epoll Server IO #1/INFO]: <~Betts> Ah
+[00:59:49] [Server thread/INFO]: CaptainBetts issued server command: /tpdeny
+[01:00:16] [Netty Epoll Server IO #1/INFO]: <~Betts> I guess I could do /back when they've despawned
+[01:00:25] [Netty Epoll Server IO #1/INFO]: <~Betts> How long until pigmen go calm?
+[01:00:40] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> dk, but back didnt work for me
+[01:01:00] [Server thread/WARN]: [Movecraft] Task #10 for Movecraft v4.6.0 generated an exception
+java.lang.NullPointerException
+	at net.countercraft.movecraft.async.AsyncManager.processSiege(AsyncManager.java:1073) ~[?:?]
+	at net.countercraft.movecraft.async.AsyncManager.run(AsyncManager.java:1099) ~[?:?]
+	at org.bukkit.craftbukkit.v1_10_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at org.bukkit.craftbukkit.v1_10_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:349) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:697) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+[01:01:01] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebb
+[01:01:01] [Server thread/INFO]: Healed ~TheChosenJuan.
+[01:01:15] [Server thread/INFO]: CaptainBetts issued server command: /BACK
+[01:01:21] [Server thread/INFO]: CaptainBetts issued server command: /home
+[01:01:27] [Netty Epoll Server IO #1/INFO]: <~Betts> Nope all still ther
+[01:01:50] [Server thread/INFO]: CaptainBetts issued server command: /whois The
+[01:02:09] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> got me stuff
+[01:02:15] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:02:21] [Netty Epoll Server IO #1/INFO]: <~Betts> do /tpdeny
+[01:02:24] [Netty Epoll Server IO #1/INFO]: <~Betts> so I can come
+[01:02:30] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:02:31] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:02:31] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:02:32] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:02:33] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:02:53] [Server thread/INFO]: CaptainBetts issued server command: /t
+[01:02:56] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:03:04] [Netty Epoll Server IO #1/INFO]: <~Betts> doot?
+[01:03:11] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:03:12] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebbo
+[01:03:12] [Server thread/INFO]: Healed ~TheChosenJuan.
+[01:03:21] [Server thread/INFO]: CaptainBetts issued server command: /tpa
+[01:03:23] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:03:23] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> tyeh
+[01:03:25] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:03:26] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:03:26] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> p to me
+[01:03:27] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:03:29] [Netty Epoll Server IO #1/INFO]: <~Betts> I tried
+[01:03:33] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[01:03:35] [Server thread/INFO]: CaptainBetts issued server command: /tp The
+[01:03:35] [Server thread/INFO]: §cCaptainBetts §4was denied access to command.
+[01:03:37] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[01:03:41] [Netty Epoll Server IO #1/INFO]: <~Betts> it says already sent
+[01:03:43] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> try again
+[01:03:47] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:03:47] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[01:04:20] [Netty Epoll Server IO #1/INFO]: <~Betts> LAG
+[01:04:40] [Netty Epoll Server IO #1/INFO]: <~Betts> Gonna change texture oack
+[01:04:45] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ok
+[01:05:08] [Netty Epoll Server IO #1/INFO]: <~Betts> Ah, much better
+[01:05:10] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> x-ray one?
+[01:05:13] [Netty Epoll Server IO #1/INFO]: <~Betts> Nay
+[01:05:18] [Netty Epoll Server IO #1/INFO]: <~Betts> I was using 3d one
+[01:05:21] [Netty Epoll Server IO #1/INFO]: <~Betts> Resource one
+[01:05:28] [Netty Epoll Server IO #1/INFO]: <~Betts> And all of nether brick is intense 3d
+[01:05:45] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebbo
+[01:05:45] [Server thread/INFO]: Healed ~TheChosenJuan.
+[01:06:44] [Netty Epoll Server IO #1/INFO]: <~Betts> I have netherwart
+[01:06:49] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> wow, u took it all
+[01:06:51] [Netty Epoll Server IO #1/INFO]: <~Betts> Safe at home for now
+[01:07:00] [Netty Epoll Server IO #1/INFO]: <~Betts> Just so it wasn't destroyed or lost when I died
+[01:07:08] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> what was in the chests
+[01:07:10] [Netty Epoll Server IO #1/INFO]: <~Betts> After explore I can give you some
+[01:07:14] [Netty Epoll Server IO #1/INFO]: <~Betts> Iron pretty much
+[01:07:17] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> i havent found any chests yet
+[01:07:21] [Netty Epoll Server IO #1/INFO]: <~Betts> And a gold chest plate
+[01:07:47] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebbo
+[01:07:48] [Server thread/INFO]: Healed ~TheChosenJuan.
+[01:08:18] [Netty Epoll Server IO #1/INFO]: <~Betts> This must be center crossroads
+[01:08:46] [Netty Epoll Server IO #1/INFO]: <~Betts> Spawners
+[01:08:51] [Netty Epoll Server IO #1/INFO]: <~Betts> Spawners EVERYWHERE
+[01:08:58] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> yep
+[01:09:26] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> shit
+[01:09:40] [Netty Epoll Server IO #1/INFO]: <~Betts> FUCJK
+[01:09:49] [Server thread/INFO]: GTBebbo was slain by Skeleton
+[01:09:55] [Server thread/INFO]: GTBebbo issued server command: /tpa CaptainBetts
+[01:10:03] [Server thread/INFO]: CaptainBetts issued server command: /HOME
+[01:10:08] [Netty Epoll Server IO #1/INFO]: <~Betts> sORRY AM DYING
+[01:10:20] [Netty Epoll Server IO #1/INFO]: <~Betts> Will do /back
+[01:10:25] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> so you can type that but not /tpaccept
+[01:10:34] [Netty Epoll Server IO #1/INFO]: <~Betts> I did /home first
+[01:10:43] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:10:44] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[01:11:04] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> thx
+[01:11:37] [Server thread/INFO]: GTBebbo tried to swim in lava
+[01:11:40] [Netty Epoll Server IO #1/INFO]: <~Betts> Wow
+[01:11:41] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> shit
+[01:11:43] [Netty Epoll Server IO #1/INFO]: <~Betts> Unlucky
+[01:12:11] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:12:24] [Server thread/INFO]: GTBebbo issued server command: /tpa CaptainBetts
+[01:12:30] [Netty Epoll Server IO #1/INFO]: <~Betts> So many wither skeletons
+[01:12:37] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ugh, again???
+[01:12:38] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:12:40] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[01:12:41] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:13:37] [Netty Epoll Server IO #1/INFO]: <~Betts> Is it safe?
+[01:13:44] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> tp
+[01:13:52] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:13:55] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[01:15:16] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:15:20] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[01:17:52] [Netty Epoll Server IO #1/INFO]: <~Betts> gd idea
+[01:18:00] [Netty Epoll Server IO #1/INFO]: <~Betts> nootralise them
+[01:18:23] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> well that worked
+[01:18:27] [Netty Epoll Server IO #1/INFO]: <~Betts> woo...
+[01:18:55] [Server thread/INFO]: Saving...
+[01:18:55] [Server thread/INFO]: Saved the world
+[01:19:08] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> rip me
+[01:19:14] [Server thread/INFO]: GTBebbo issued server command: /home
+[01:19:22] [Server thread/INFO]: CaptainBetts issued server command: /home
+[01:19:44] [Netty Epoll Server IO #1/INFO]: <~Betts> Gear up and then do /back
+[01:19:44] [Server thread/INFO]: GTBebbo issued server command: /back
+[01:21:07] [Netty Epoll Server IO #1/INFO]: <~Betts> Tell me when you're ready
+[01:21:15] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ready
+[01:21:21] [Netty Epoll Server IO #1/INFO]: <~Betts> See you at spawner
+[01:21:33] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:22:57] [Server thread/INFO]: CaptainBetts issued server command: /tpa T
+[01:23:02] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[01:26:12] [Server thread/INFO]: CaptainBetts issued server command: /whois Th
+[01:28:23] [Server thread/INFO]: GTBebbo was fireballed by Blaze
+[01:28:26] [Netty Epoll Server IO #1/INFO]: <~Betts> ah
+[01:28:27] [Server thread/INFO]: GTBebbo issued server command: /back
+[01:28:31] [Server thread/INFO]: GTBebbo issued server command: /tpa CaptainBetts
+[01:28:31] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[01:29:07] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebbo
+[01:29:07] [Server thread/INFO]: Healed ~TheChosenJuan.
+[01:29:53] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebbo
+[01:29:53] [Server thread/INFO]: Healed ~TheChosenJuan.
+[01:30:21] [Server thread/INFO]: CONSOLE issued server command: /heal GTBebbo
+[01:30:21] [Server thread/INFO]: Healed ~TheChosenJuan.
+[01:31:35] [Netty Epoll Server IO #1/INFO]: <~Betts> What in the blazes?
+[01:31:36] [Netty Epoll Server IO #1/INFO]: <~Betts> HAHAHAHA
+[01:31:40] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> HAHAHAHAHA
+[01:32:15] [Server thread/INFO]: GTBebbo was fireballed by Blaze
+[01:32:17] [Netty Epoll Server IO #1/INFO]: <~Betts> AH
+[01:32:18] [Server thread/INFO]: GTBebbo issued server command: /back
+[01:32:20] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[01:32:21] [Server thread/INFO]: GTBebbo issued server command: /tpa CaptainBetts
+[01:32:24] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[01:33:01] [Server thread/INFO]: GTBebbo issued server command: /home
+[01:33:39] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[01:33:58] [Server thread/INFO]: CaptainBetts issued server command: /home
+[01:34:05] [Netty Epoll Server IO #1/INFO]: <~Betts> where u at scrub?
+[01:34:11] [Netty Epoll Server IO #1/INFO]: <~Betts> Shields are so good
+[01:34:18] [Netty Epoll Server IO #1/INFO]: <~Betts> Block those fireballs and take no damage
+[01:34:19] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> i went home
+[01:34:22] [Netty Epoll Server IO #1/INFO]: <~Betts> Ah
+[01:34:47] [Netty Epoll Server IO #1/INFO]: <~Betts> I ran out of Arrows really fast
+[01:34:59] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[01:35:16] [Server thread/INFO]: CaptainBetts issued server command: /whois GT
+[01:36:21] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[01:36:22] [Server thread/INFO]: CaptainBetts issued server command: /whois GT
+[01:36:43] [Netty Epoll Server IO #1/INFO]: <~Betts> We should mark out the boundaries of spawn village
+[01:37:03] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> my estate is a clear border
+[01:37:03] [Netty Epoll Server IO #1/INFO]: <~Betts> Then wall it off
+[01:37:07] [Netty Epoll Server IO #1/INFO]: <~Betts> And then light it
+[01:37:25] [Netty Epoll Server IO #1/INFO]: <~Betts> What should we make walls out of, and what design?
+[01:38:42] [Netty Epoll Server IO #1/INFO]: <~Betts> Like a flag
+[01:38:45] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> yep
+[01:39:04] [Netty Epoll Server IO #1/INFO]: <~Betts> What walls should we make?
+[01:39:14] [Netty Epoll Server IO #1/INFO]: <~Betts> If you make a design, I'll build it
+[01:39:23] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ok
+[01:39:46] [Netty Epoll Server IO #1/INFO]: <~Betts> Simple though
+[01:39:54] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> dammit
+[01:40:02] [Netty Epoll Server IO #1/INFO]: <~Betts> As otherwise it'd take ages to build
+[01:40:53] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> here
+[01:40:57] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[01:41:01] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[01:41:05] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok
+[01:41:08] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> simple
+[01:41:22] [Netty Epoll Server IO #1/INFO]: <~Betts> One block high - how to go up and down hills without looking a mess?
+[01:42:00] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[01:42:35] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> it'll be fine as long as its a one block increment
+[01:42:38] [Netty Epoll Server IO #1/INFO]: <~Betts> ok
+[01:43:11] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[01:43:16] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:43:18] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:45:20] [Netty Epoll Server IO #1/INFO]: <~Betts> Do you have much cobble?
+[01:45:41] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> 61
+[01:45:45] [Netty Epoll Server IO #1/INFO]: <~Betts> Ahok
+[01:45:47] [Server thread/INFO]: GTBebbo issued server command: /tpa CaptainBetts
+[01:45:50] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[01:45:54] [Netty Epoll Server IO #1/INFO]: <~Betts> thx
+[01:46:07] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[01:46:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5105ms behind, skipping 102 tick(s)
+[01:46:20] [Server thread/WARN]: CaptainBetts moved too quickly! 1.5091636996273792,-2.8156999805212024,-14.368578779968544
+[01:46:41] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[01:48:58] [Server thread/INFO]: Saving...
+[01:48:58] [Server thread/INFO]: Saved the world
+[01:49:50] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok, when you need wood, take it from the soon to be determined border area
+[01:49:52] [Server thread/INFO]: CaptainBetts issued server command: /home
+[01:50:03] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:50:10] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ok, can I have some nether wart?
+[01:50:12] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[01:50:19] [Netty Epoll Server IO #1/INFO]: <~Betts> I'll do wall first, then sure
+[01:50:26] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ok
+[01:54:54] [Netty Epoll Server IO #1/INFO]: <~Betts> Ah wait this passed your estate boundary long ago
+[01:55:12] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> yep
+[01:55:38] [Netty Epoll Server IO #1/INFO]: <~Betts> You might wanna put the walls up near your estate so I don't make anything bad
+[01:55:51] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> yeh
+[01:56:17] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:56:20] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:56:22] [Server thread/INFO]: CaptainBetts issued server command: /home
+[01:56:27] [Server thread/INFO]: CaptainBetts issued server command: /back
+[01:59:15] [Server thread/INFO]: CaptainBetts issued server command: /home
+[01:59:22] [Netty Epoll Server IO #1/INFO]: <~Betts> We should light up spawn
+[01:59:40] [Server thread/INFO]: CaptainBetts issued server command: /SPAWN
+[01:59:54] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> yeh
+[02:01:16] [Netty Epoll Server IO #1/INFO]: <~Betts> Out of stone and coal :P
+[02:02:02] [Server thread/INFO]: CaptainBetts issued server command: /SPAWN
+[02:03:49] [Netty Epoll Server IO #1/INFO]: <~Betts> Grid pattern roads? Or England Style?
+[02:04:01] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> dm
+[02:04:10] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> go for grid
+[02:04:14] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok, cool
+[02:04:27] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> but dont worry about a bit of english style here and there
+[02:04:32] [Netty Epoll Server IO #1/INFO]: <~Betts> May be hard in some cases due to irregular buildings, yeah
+[02:06:02] [Netty Epoll Server IO #1/INFO]: <~Betts> Temp road
+[02:06:06] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ok
+[02:06:44] [Netty Epoll Server IO #1/INFO]: <~Betts> We'll put crossroads at spawn
+[02:06:52] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> kk
+[02:06:58] [Netty Epoll Server IO #1/INFO]: <~Betts> k
+[02:07:05] [Netty Epoll Server IO #1/INFO]: <~Betts> kool kidz klub
+[02:07:16] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> :D
+[02:08:08] [Netty Epoll Server IO #1/INFO]: <~Betts> We can have hole in the wall shops closer to the mountains
+[02:08:18] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> ok
+[02:08:37] [Netty Epoll Server IO #1/INFO]: <~Betts> I'll end this road here for now
+[02:08:52] [Netty Epoll Server IO #1/INFO]: <~Betts> We can change the length if we need to depending on infrastructure
+[02:09:00] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> can i have some nether wart
+[02:11:32] [Netty Epoll Server IO #1/INFO]: <~Betts> Hmm
+[02:11:40] [Netty Epoll Server IO #1/INFO]: <~Betts> Don't know where to add next road
+[02:11:48] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> nether wart?
+[02:11:52] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok
+[02:11:54] [Server thread/INFO]: CaptainBetts issued server command: /home
+[02:11:55] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> thx
+[02:12:04] [Server thread/INFO]: CaptainBetts issued server command: /SPAWN
+[02:12:17] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> thx
+[02:12:18] [Netty Epoll Server IO #1/INFO]: <~Betts> 50% of it :)
+[02:12:19] [Server thread/INFO]: GTBebbo issued server command: /home
+[02:12:25] [Netty Epoll Server IO #1/INFO]: <~Betts> Fair division]
+[02:12:40] [Netty Epoll Server IO #1/INFO]: <~Betts> I may add mains electricity here
+[02:12:57] [Netty Epoll Server IO #1/INFO]: <~Betts> That would be bare cheeky
+[02:13:11] [Netty Epoll Server IO #1/INFO]: <~Betts> Definitely wouldn't make adding contraptions here harder, oh no.
+[02:13:19] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> lol
+[02:15:10] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> no coal
+[02:15:17] [Netty Epoll Server IO #1/INFO]: <~Betts> Same :/
+[02:16:46] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[02:17:06] [Server thread/INFO]: GTBebbo issued server command: /home
+[02:17:28] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> looks really good from here
+[02:17:35] [Server thread/INFO]: CaptainBetts issued server command: /tpa The
+[02:17:39] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[02:17:42] [Netty Epoll Server IO #1/INFO]: <~Betts> Yeah
+[02:17:48] [Netty Epoll Server IO #1/INFO]: <~Betts> You've got a good view
+[02:17:53] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> yep
+[02:18:03] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> early bird catches the worm
+[02:18:05] [Netty Epoll Server IO #1/INFO]: <~Betts> Mm
+[02:18:13] [Netty Epoll Server IO #1/INFO]: <~Betts> But the later one gets a good sleep ?!?!?
+[02:18:18] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> notice, automatic lights
+[02:18:22] [Netty Epoll Server IO #1/INFO]: <~Betts> Yeah
+[02:18:27] [Netty Epoll Server IO #1/INFO]: <~Betts> I thought they turned on in the day?
+[02:18:35] [Netty Epoll Server IO #1/INFO]: <~Betts> I could be wrong
+[02:18:36] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> right click to invert them
+[02:18:51] [Netty Epoll Server IO #1/INFO]: <~Betts> Oh, never realised, every time I wanted to make it the other way around
+[02:18:57] [Netty Epoll Server IO #1/INFO]: <~Betts> I made more redstone to do that
+[02:18:58] [Server thread/INFO]: Saving...
+[02:18:58] [Server thread/INFO]: Saved the world
+[02:19:00] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> lol
+[02:19:55] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> sleep? I need to re set my spawn coz i moved my bed
+[02:19:58] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok
+[02:19:59] [Server thread/INFO]: CaptainBetts issued server command: /gome
+[02:20:00] [Server thread/INFO]: CaptainBetts issued server command: /home
+[02:20:15] [Netty Epoll Server IO #1/INFO]: <~Betts> woo
+[02:20:15] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> thx
+[02:20:16] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[02:20:47] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> anyway, i gtg sleep irl
+[02:20:49] [Netty Epoll Server IO #0/INFO]: <~TheChosenJuan> bye
+[02:20:51] [Netty Epoll Server IO #1/INFO]: <~Betts> Bey
+[02:20:53] [Netty Epoll Server IO #1/INFO]: <~Betts> Bye
+[02:20:57] [Server thread/INFO]: GTBebbo lost connection: Disconnected
+[02:20:57] [Server thread/INFO]: GTBebbo left the game.
+[02:29:37] [Server thread/INFO]: CaptainBetts issued server command: /home
+[02:29:56] [Server thread/INFO]: CaptainBetts issued server command: /back
+[02:30:53] [Server thread/INFO]: CaptainBetts issued server command: /home
+[02:31:21] [Server thread/INFO]: CaptainBetts issued server command: /back
+[02:41:25] [Server thread/INFO]: CaptainBetts issued server command: /back
+[02:41:50] [Server thread/INFO]: CaptainBetts issued server command: /back
+[02:46:01] [Server thread/INFO]: CaptainBetts issued server command: /home
+[02:48:58] [Server thread/INFO]: Saving...
+[02:48:58] [Server thread/INFO]: Saved the world
+[02:49:34] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[03:01:28] [Server thread/INFO]: CaptainBetts issued server command: /home
+[03:01:33] [Server thread/INFO]: CaptainBetts issued server command: /back
+[03:01:38] [Server thread/INFO]: CaptainBetts issued server command: /spawm
+[03:01:40] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[03:12:32] [Server thread/INFO]: CaptainBetts issued server command: /back
+[03:12:34] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[03:12:36] [Server thread/INFO]: CaptainBetts issued server command: /home
+[03:12:51] [Netty Epoll Server IO #1/INFO]: <~Betts> Zzz...
+[03:13:27] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[03:18:58] [Server thread/INFO]: Saving...
+[03:18:58] [Server thread/INFO]: Saved the world
+[03:19:11] [Server thread/INFO]: CaptainBetts issued server command: /home
+[03:19:20] [Server thread/INFO]: CaptainBetts issued server command: /back
+[03:23:21] [Server thread/INFO]: CaptainBetts issued server command: /home
+[03:23:43] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[03:27:09] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[03:30:38] [Server thread/INFO]: CaptainBetts issued server command: /back
+[03:31:36] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[03:48:58] [Server thread/INFO]: Saving...
+[03:48:58] [Server thread/INFO]: Saved the world
+[03:49:28] [Server thread/INFO]: CaptainBetts issued server command: /back
+[03:50:23] [Server thread/INFO]: CaptainBetts issued server command: /back
+[03:51:35] [Server thread/INFO]: CaptainBetts issued server command: /back
+[03:52:56] [Server thread/INFO]: CaptainBetts issued server command: /back
+[04:18:58] [Server thread/INFO]: Saving...
+[04:18:58] [Server thread/INFO]: Saved the world
+[04:30:58] [Server thread/INFO]: CaptainBetts issued server command: /home
+[04:31:07] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[04:32:46] [Server thread/INFO]: CaptainBetts lost connection: Disconnected
+[04:32:46] [Server thread/INFO]: CaptainBetts left the game.
+[04:48:58] [Server thread/INFO]: Saving...
+[04:48:58] [Server thread/INFO]: Saved the world
+[05:18:58] [Server thread/INFO]: Saving...
+[05:18:58] [Server thread/INFO]: Saved the world
+[05:48:58] [Server thread/INFO]: Saving...
+[05:48:58] [Server thread/INFO]: Saved the world
+[06:18:58] [Server thread/INFO]: Saving...
+[06:18:58] [Server thread/INFO]: Saved the world
+[06:48:58] [Server thread/INFO]: Saving...
+[06:48:58] [Server thread/INFO]: Saved the world
+[07:18:58] [Server thread/INFO]: Saving...
+[07:18:58] [Server thread/INFO]: Saved the world
+[07:48:58] [Server thread/INFO]: Saving...
+[07:48:58] [Server thread/INFO]: Saved the world
+[08:18:58] [Server thread/INFO]: Saving...
+[08:18:58] [Server thread/INFO]: Saved the world
+[08:48:58] [Server thread/INFO]: Saving...
+[08:48:58] [Server thread/INFO]: Saved the world
+[09:18:58] [Server thread/INFO]: Saving...
+[09:18:58] [Server thread/INFO]: Saved the world
+[09:48:58] [Server thread/INFO]: Saving...
+[09:48:58] [Server thread/INFO]: Saved the world
+[10:18:58] [Server thread/INFO]: Saving...
+[10:18:58] [Server thread/INFO]: Saved the world
+[10:48:58] [Server thread/INFO]: Saving...
+[10:48:58] [Server thread/INFO]: Saved the world
+[11:14:14] [User Authenticator #3/INFO]: UUID of player CaptainBetts is 6bbb8b68-e1de-42e2-911e-8075b2a8d19e
+[11:14:14] [Server thread/INFO]: CaptainBetts[/88.202.251.56:62770] logged in with entity id 29984 at ([world]213.6698295574668, 82.5, 291.85244629438336)
+[11:14:35] [Server thread/INFO]: CaptainBetts issued server command: /home
+[11:15:40] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:16:35] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:17:38] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:18:28] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:18:58] [Server thread/INFO]: Saving...
+[11:18:58] [Server thread/INFO]: Saved the world
+[11:19:00] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:20:20] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[11:20:53] [Server thread/INFO]: CaptainBetts issued server command: /home
+[11:21:59] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[11:24:48] [Server thread/INFO]: CaptainBetts issued server command: /spamn
+[11:24:51] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[11:26:05] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:26:16] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:27:11] [Server thread/INFO]: CaptainBetts issued server command: /home
+[11:27:34] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:28:18] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:28:33] [Server thread/INFO]: CaptainBetts issued server command: /back
+[11:48:58] [Server thread/INFO]: Saving...
+[11:48:58] [Server thread/INFO]: Saved the world
+[12:18:58] [Server thread/INFO]: Saving...
+[12:18:58] [Server thread/INFO]: Saved the world
+[12:48:58] [Server thread/INFO]: Saving...
+[12:48:58] [Server thread/INFO]: Saved the world
+[12:53:47] [Server thread/INFO]: CaptainBetts issued server command: /back
+[12:54:37] [Server thread/INFO]: CaptainBetts issued server command: /back
+[13:01:27] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[13:18:19] [Server thread/INFO]: [Lockette] CaptainBetts has protected a block or door.
+[13:18:58] [Server thread/INFO]: Saving...
+[13:18:58] [Server thread/INFO]: Saved the world
+[13:48:58] [Server thread/INFO]: Saving...
+[13:48:58] [Server thread/INFO]: Saved the world
+[13:52:08] [Server thread/INFO]: CaptainBetts lost connection: Disconnected
+[13:52:08] [Server thread/INFO]: CaptainBetts left the game.
+[14:18:58] [Server thread/INFO]: Saving...
+[14:18:58] [Server thread/INFO]: Saved the world
+[14:48:58] [Server thread/INFO]: Saving...
+[14:48:58] [Server thread/INFO]: Saved the world
+[15:18:58] [Server thread/INFO]: Saving...
+[15:18:58] [Server thread/INFO]: Saved the world
+[15:48:58] [Server thread/INFO]: Saving...
+[15:48:58] [Server thread/INFO]: Saved the world
+[16:18:58] [Server thread/INFO]: Saving...
+[16:18:58] [Server thread/INFO]: Saved the world
+[16:48:58] [Server thread/INFO]: Saving...
+[16:48:58] [Server thread/INFO]: Saved the world
+[17:18:58] [Server thread/INFO]: Saving...
+[17:18:58] [Server thread/INFO]: Saved the world
+[17:48:58] [Server thread/INFO]: Saving...
+[17:48:58] [Server thread/INFO]: Saved the world
+[18:18:58] [Server thread/INFO]: Saving...
+[18:18:58] [Server thread/INFO]: Saved the world
+[18:48:58] [Server thread/INFO]: Saving...
+[18:48:58] [Server thread/INFO]: Saved the world
+[19:18:58] [Server thread/INFO]: Saving...
+[19:18:58] [Server thread/INFO]: Saved the world
+[19:48:58] [Server thread/INFO]: Saving...
+[19:48:58] [Server thread/INFO]: Saved the world
+[20:18:58] [Server thread/INFO]: Saving...
+[20:18:58] [Server thread/INFO]: Saved the world
+[20:48:58] [Server thread/INFO]: Saving...
+[20:48:58] [Server thread/INFO]: Saved the world
+[21:18:58] [Server thread/INFO]: Saving...
+[21:18:58] [Server thread/INFO]: Saved the world
+[21:48:58] [Server thread/INFO]: Saving...
+[21:48:58] [Server thread/INFO]: Saved the world
+[22:18:58] [Server thread/INFO]: Saving...
+[22:18:58] [Server thread/INFO]: Saved the world
+[22:48:58] [Server thread/INFO]: Saving...
+[22:48:58] [Server thread/INFO]: Saved the world
+[23:18:58] [Server thread/INFO]: Saving...
+[23:18:58] [Server thread/INFO]: Saved the world

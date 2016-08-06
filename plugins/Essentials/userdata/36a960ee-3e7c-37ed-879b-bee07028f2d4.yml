@@ -1,23 +1,23 @@
 lastAccountName: rights4muffins
 timestamps:
-  login: 1470350388544
-  logout: 1470354623184
-  lastteleport: 1470354340052
+  login: 1470400504988
+  logout: 1470401712018
+  lastteleport: 1470401448018
 ipAddress: 109.153.39.193
 lastlocation:
   world: world
-  x: 205.74595669659928
-  y: 70.0
-  z: 153.32213419835935
-  yaw: -303.29877
-  pitch: 11.100113
+  x: 95.30000001192093
+  y: 11.0
+  z: 264.9871920587378
+  yaw: 180.30376
+  pitch: 18.300238
 logoutlocation:
   world: world
-  x: 101.3075090345424
-  y: 77.5
-  z: 280.2960281436089
-  yaw: 6.749383
-  pitch: 27.749876
+  x: 99.98602103422081
+  y: 77.0
+  z: 281.97545807322683
+  yaw: 133.64111
+  pitch: 1.9500285
 homes:
   home:
     world: world

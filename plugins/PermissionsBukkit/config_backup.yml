@@ -27,15 +27,6 @@ users:
       permissions.example: true
     groups:
     - admin
-#  662bccd9-0d23-3728-a14a-1407f1480e24:
-#    permissions:
-#      '*': true
-#      permissions.*:true
-#      essentials.*: true
-#      bukkit.*: true
-#    groups:
-#    - admin
-#    name: GTBebbo
 groups:
   default:
     permissions:
@@ -91,6 +82,28 @@ groups:
       bukkit.command.save-all: true
       lockette.user.*: true
       essentials.chat.*: true
+      movecraft.movecraft.*:true
+      movecraft.*:true
+      movecraft.commands.*:false
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
+#      :true
   admin:
     permissions:
       permissions.*: true

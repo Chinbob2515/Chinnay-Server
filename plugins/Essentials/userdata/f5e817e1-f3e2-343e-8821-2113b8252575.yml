@@ -1,23 +1,23 @@
 lastAccountName: CaptainBetts
 timestamps:
-  login: 1470359690912
-  logout: 1470364164232
-  lastteleport: 1470362032731
+  login: 1470411035605
+  logout: 1470411318224
+  lastteleport: 1470411254422
 ipAddress: 88.202.251.56
 lastlocation:
   world: world
-  x: 1280.8590162663806
-  y: 44.0
-  z: 1879.9699696505902
-  yaw: -142.94937
-  pitch: 5.999989
+  x: -1633.0818946368242
+  y: 69.0
+  z: 349.42961227545123
+  yaw: 198.74963
+  pitch: 24.000061
 logoutlocation:
   world: world
-  x: 1276.0655747302433
+  x: 1281.3414726250016
   y: 44.0
-  z: 1880.3575300855566
-  yaw: -103.516525
-  pitch: 11.099992
+  z: 1879.698795251032
+  yaw: 63.300743
+  pitch: 15.299998
 homes:
   home:
     world: world
