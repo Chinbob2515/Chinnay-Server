@@ -1,3 +1,4 @@
-[1] Be respectful
-[2] Be ethical
-[3] Use common sense
+[1] Be disrespectful
+[2] Be unethical
+[3] Use uncommon (rare) sense
+[4] Kill {PLAYER}.

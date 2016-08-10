@@ -1,3 +1,5 @@
+
+
 name: Airship
 maxSize: 5000
 minSize: 1000
@@ -132,7 +134,7 @@ underwaterDetectionMultiplier: 1.0
 speed: 1.0
 cruiseSkipBlocks: 4
 cruiseSpeed: 0.5
-fuelBurnRate: 2.0
+fuelBurnRate: 0.2
 sinkPercent: 99.0
 overallSinkPercent: 60.0
 tryNudge: false

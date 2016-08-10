@@ -27,15 +27,23 @@ users:
       permissions.example: true
     groups:
     - admin
+  d1639200-231d-40e0-9abc-ec97d4a9129b:
+    permissions:
+      essentials.sethome.multiple.staff: true
+    groups:
+    - default
+    name: Chinbob2515
 groups:
   default:
     permissions:
       movecraft.*: true
       permissions.build: true
       essentials.sethome: true
+      essentials.sethome.multiple: true
       essentials.home: true
       essentials.delhome: true
       essentials.tpa: true
+      essentials.tpahere: true
       essentials.tpaccept: true
       essentials.tpdeny: true
       essentials.tptoggle: true
@@ -71,6 +79,8 @@ groups:
       essentials.clearinventory: true
       essentials.ping: true
       essentials.back: true
+      essentials.back.ondeath: true
+      essentials.keepxp: true
       essentials.spawn: true
       essentials.chat.color: true
       bukkit.command.version: true
@@ -84,10 +94,113 @@ groups:
       lockette.user.*: true
       essentials.chat.*: true
       movecraft.movecraft.*: true
-      movecraft.*: true
-      movecraft.commands.*: false
+      movecraft.commands.*: true
       movecraft.movecraft: true
-#      : true
+      movecraft.movecraft.release: true
+      movecraft.commands.release: true
+      movecraft.release: true
+      movecraft.aircraft.*: true
+      movecraft.ship.*: true
+      movecraft.ufo.*: true
+      movecraft.aircraft.pilot: true
+      movecraft.ship.sail: true
+      movecraft.ufo.pilot: true
+      movecraft.aircraft.info: true
+      movecraft.airskiff.*: true
+      movecraft.airksiff: true
+      movecraft.bigairskiff: true
+      movecraft.bigairskiff.*: true
+      movecraft.movecraft.list: true
+      movecraft.movecraft.types: true
+      movecraft.airship.info: true
+      movecraft.airship.setname: true
+      movecraft.airship.size: true
+      movecraft.airship: true
+      movecraft.airship.release: true
+      movecraft.airship.pilot: true
+      movecraft.airship.remote: true
+      movecraft.airship.turn: true
+      movecraft.airship.move: true
+      movecraft.airskiff.info: true
+      movecraft.airskiff.setname: true
+      movecraft.airskiff.size: true
+      movecraft.airskiff: true
+      movecraft.airskiff.release: true
+      movecraft.airskiff.pilot: true
+      movecraft.airskiff.remote: true
+      movecraft.airskiff.turn: true
+      movecraft.airskiff.move: true
+      movecraft.fastairskiff.info: true
+      movecraft.fastairskiff.setname: true
+      movecraft.fastairskiff.size: true
+      movecraft.fastairskiff: true
+      movecraft.fastairskiff.release: true
+      movecraft.fastairskiff.pilot: true
+      movecraft.fastairskiff.remote: true
+      movecraft.fastairskiff.turn: true
+      movecraft.fastairskiff.move: true
+      movecraft.bigairskiff.info: true
+      movecraft.bigairskiff.setname: true
+      movecraft.bigairskiff.size: true
+      movecraft.bigairskiff.release: true
+      movecraft.bigairskiff.pilot: true
+      movecraft.bigairskiff.remote: true
+      movecraft.bigairskiff.turn: true
+      movecraft.bigairskiff.move: true
+      movecraft.ship.info: true
+      movecraft.ship.setname: true
+      movecraft.ship.size: true
+      movecraft.ship: true
+      movecraft.ship.release: true
+      movecraft.ship.pilot: true
+      movecraft.ship.remote: true
+      movecraft.ship.turn: true
+      movecraft.ship.move: true
+      movecraft.boat.info: true
+      movecraft.boat.setname: true
+      movecraft.boat.size: true
+      movecraft.boat: true
+      movecraft.boat.release: true
+      movecraft.boat.pilot: true
+      movecraft.boat.remote: true
+      movecraft.boat.turn: true
+      movecraft.boat.move: true
+      movecraft.car.info: true
+      movecraft.car.setname: true
+      movecraft.car.size: true
+      movecraft.car: true
+      movecraft.car.release: true
+      movecraft.car.pilot: true
+      movecraft.car.remote: true
+      movecraft.car.turn: true
+      movecraft.car.move: true
+      movecraft.drill.info: true
+      movecraft.drill.setname: true
+      movecraft.drill.size: true
+      movecraft.drill: true
+      movecraft.drill.release: true
+      movecraft.drill.pilot: true
+      movecraft.drill.remote: true
+      movecraft.drill.turn: true
+      movecraft.drill.move: true
+      movecraft.submarine.info: true
+      movecraft.submarine.setname: true
+      movecraft.submarine.size: true
+      movecraft.submarine: true
+      movecraft.submarine.release: true
+      movecraft.submarine.pilot: true
+      movecraft.submarine.remote: true
+      movecraft.submarine.turn: true
+      movecraft.submarine.move: true
+      movecraft.UFO.info: true
+      movecraft.UFO.setname: true
+      movecraft.UFO.size: true
+      movecraft.UFO: true
+      movecraft.UFO.release: true
+      movecraft.UFO.pilot: true
+      movecraft.UFO.remote: true
+      movecraft.UFO.turn: true
+      movecraft.UFO.move: true
   admin:
     permissions:
       permissions.*: true

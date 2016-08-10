@@ -1,3 +1,5 @@
+
+
 name: BigSubAirship
 maxSize: 20000
 minSize: 10000
@@ -132,7 +134,7 @@ detectionMultiplier: 10.0
 underwaterDetectionMultiplier: 1.0
 speed: 0.17
 collisionExplosion: 0.0
-fuelBurnRate: 4.0
+fuelBurnRate: 0.4
 tryNudge: false
 sinkPercent: 99.0
 overallSinkPercent: 60.0

@@ -1,22 +1,72 @@
 lastAccountName: GTBebbo
 timestamps:
-  login: 1470440932869
-  logout: 1470446457798
-  lastteleport: 1470446226895
+  login: 1470782171216
+  logout: 1470783839366
+  lastteleport: 1470783835465
 ipAddress: 92.11.101.19
 lastlocation:
   world: world
-  x: 242.60893976715846
-  y: 65.9375
-  z: 251.46982049224277
-  yaw: 273.15088
-  pitch: 14.999958
+  x: 383.97173838911925
+  y: 108.0
+  z: 287.1803409425571
+  yaw: -106.64722
+  pitch: 33.899982
 logoutlocation:
   world: world
-  x: 314.99673681496995
+  x: 320.485353348934
   y: 77.0
-  z: 284.19154196446436
-  yaw: -333.44968
-  pitch: 17.099957
+  z: 271.05111774109054
+  yaw: 333.90372
+  pitch: 20.700003
 afk: false
 nickname: TheChosenJuan
+homes:
+  dock:
+    world: world
+    x: 380.5
+    y: 124.0
+    z: 290.5
+    yaw: -269.24634
+    pitch: -17.849981
+  home:
+    world: world
+    x: 320.2756376849207
+    y: 77.0
+    z: 275.3288833921526
+    yaw: 87.003716
+    pitch: 3.7500012
+  h:
+    world: world
+    x: 320.5
+    y: 77.0
+    z: 275.5
+    yaw: 87.003716
+    pitch: 3.7500012
+  d:
+    world: world
+    x: 316.1854832619654
+    y: 10.0
+    z: 305.69999998807907
+    yaw: -18.296753
+    pitch: 35.849953
+  mobspawner:
+    world: world
+    x: 420.8823887102773
+    y: 11.0
+    z: 255.30000001192093
+    yaw: -100.04578
+    pitch: 41.550117
+  mine:
+    world: world
+    x: 415.03724964644186
+    y: 15.0
+    z: 259.4497775533201
+    yaw: -75.44357
+    pitch: 17.10007
+  mine2:
+    world: world
+    x: 464.30000001192093
+    y: 11.0
+    z: 220.69999998807907
+    yaw: -177.59283
+    pitch: 50.55001

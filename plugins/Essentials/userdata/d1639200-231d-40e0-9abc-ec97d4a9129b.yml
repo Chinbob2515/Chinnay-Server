@@ -1,0 +1,134 @@
+lastlocation:
+  world: world
+  x: 60.5
+  y: 42.0
+  z: -37.5
+  yaw: 100.66816
+  pitch: 9.112854
+lastAccountName: Chinbob2515
+timestamps:
+  login: 1470833154575
+  logout: 1470830273756
+  lastteleport: 1470833315817
+ipAddress: 109.149.222.43
+logoutlocation:
+  world: world
+  x: -4115.42172260066
+  y: 77.0
+  z: 787.6999999880791
+  yaw: 175.6211
+  pitch: 2.6854677
+nickname: Chinbob
+homes:
+  home:
+    world: world
+    x: 420421.41442856204
+    y: 68.0
+    z: 420420.5
+    yaw: -164.36176
+    pitch: 11.4000025
+  rebecca:
+    world: world
+    x: 420393.99016376305
+    y: 78.0
+    z: 420413.82969856804
+    yaw: -147.648
+    pitch: 32.220387
+  mine:
+    world: world
+    x: -1890.3922798785538
+    y: 53.0
+    z: 869.4265768201485
+    yaw: -130.2204
+    pitch: 19.296911
+  ben:
+    world: world
+    x: 60.49288344672016
+    y: 42.0
+    z: -37.67538571874403
+    yaw: 251.92438
+    pitch: -1.8223301
+  top:
+    world: world
+    x: 69.59180691372563
+    y: 60.0
+    z: -30.688351119868432
+    yaw: 91.706665
+    pitch: 60.032616
+  mineral:
+    world: world
+    x: 24.823962602060234
+    y: 12.0
+    z: -96.80855295753636
+    yaw: 182.36139
+    pitch: 20.79938
+  cow:
+    world: world
+    x: -480.0952860059766
+    y: 76.0
+    z: 178.82983773215076
+    yaw: 132.80804
+    pitch: 28.715307
+  sheep:
+    world: world
+    x: -1368.5
+    y: 73.0
+    z: 832.5
+    yaw: -252.17767
+    pitch: 8.111341
+  farm:
+    world: world
+    x: 234.99895209864616
+    y: 67.0
+    z: 128.26079958058625
+    yaw: 153.89062
+    pitch: 33.404167
+  airship:
+    world: world
+    x: -1383.2886191510052
+    y: 93.0
+    z: 838.9596409740934
+    yaw: -263.3902
+    pitch: 24.10992
+  mine2:
+    world: world
+    x: -1482.300000011921
+    y: 12.0
+    z: 847.6999999880791
+    yaw: 181.99976
+    pitch: 11.3668
+  partway:
+    world: world
+    x: -1382.5790788886393
+    y: 39.0
+    z: 674.59343327993
+    yaw: -121.3414
+    pitch: 61.33963
+  betts:
+    world: world
+    x: 1290.13702854945
+    y: 44.0
+    z: 1862.2319215987388
+    yaw: 89.86501
+    pitch: 9.785577
+  village:
+    world: world
+    x: -4075.4407158832855
+    y: 75.0
+    z: 775.980734456956
+    yaw: 185.69424
+    pitch: 6.859239
+  desert:
+    world: world
+    x: -4017.539104137718
+    y: 64.0
+    z: 1027.7994305576963
+    yaw: 28.314941
+    pitch: 47.31587
+  mine3:
+    world: world
+    x: -3781.300000011921
+    y: 25.0
+    z: 1234.897714532159
+    yaw: 133.49628
+    pitch: 13.036329

@@ -1,0 +1,115 @@
+# PermissionsBukkit configuration file
+# 
+# A permission node is a string like 'permissions.build', usually starting
+# with the name of the plugin. Refer to a plugin's documentation for what
+# permissions it cares about. Each node should be followed by true to grant
+# that permission or false to revoke it, as in 'permissions.build: true'.
+# Some plugins provide permission nodes that map to a group of permissions -
+# for example, PermissionsBukkit has 'permissions.*', which automatically
+# grants all admin permissions. You can also specify false for permissions
+# of this type.
+# 
+# Users inherit permissions from the groups they are a part of. If a user is
+# not specified here, or does not have a 'groups' node, they will be in the
+# group 'default'. Permissions for individual users may also be specified by
+# using a 'permissions' node with a list of permission nodes, which will
+# override their group permissions. World permissions may be assigned to
+# users with a 'worlds:' entry.
+# 
+# Groups can be assigned to players and all their permissions will also be
+# assigned to those players. Groups can also inherit permissions from other
+# groups. Like user permissions, groups may override the permissions of their
+# parent group(s). Unlike users, groups do NOT automatically inherit from
+# default. World permissions may be assigned to groups with a 'worlds:' entry.
+users:
+  ConspiracyWizard:
+    permissions:
+      permissions.example: true
+    groups:
+    - admin
+groups:
+  default:
+    permissions:
+      movecraft.*: true
+      permissions.build: true
+      essentials.sethome: true
+      essentials.home: true
+      essentials.delhome: true
+      essentials.tpa: true
+      essentials.tpaccept: true
+      essentials.tpdeny: true
+      essentials.tptoggle: true
+      essentials.warp: true
+      essentials.warp.list: true
+      essentials.warps.*: true
+      essentials.balance: true
+      essentials.balancetop: true
+      essentials.pay: true
+      essentials.sell: true
+      essentials.worth: true
+      essentials.afk: true
+      essentials.depth: true
+      essentials.getpos: true
+      essentials.help: true
+      essentials.helpop: true
+      essentials.ignore: true
+      essentials.info: true
+      essentials.itemdb: true
+      essentials.list: true
+      essentials.mail: true
+      essentials.mail.send: true
+      essentials.mail.sendall: true
+      essentials.me: true
+      essentials.motd: true
+      essentials.msg: true
+      essentials.nick: true
+      essentials.msg.*: true
+      essentials.realname: true
+      essentials.rules: true
+      essentials.whois: true
+      essentials.suicide: true
+      essentials.clearinventory: true
+      essentials.ping: true
+      essentials.back: true
+      essentials.spawn: true
+      essentials.chat.color: true
+      bukkit.command.version: true
+      bukkit.command.ban.list: true
+      bukkit.command.stop: true
+      bukkit.command.say: true
+      bukkit.command.tell: true
+      bukkit.command.save.perform: true
+      bukkit.command.save: true
+      bukkit.command.save-all: true
+      lockette.user.*: true
+      essentials.chat.*: true
+      movecraft.movecraft.*: true
+      movecraft.*: true
+      movecraft.commands.*: false
+      movecraft.movecraft: true
+      movecraft.aircraft.*: true
+      movecraft.ship.*: true
+      movecraft.ufo.*: true
+      movecraft.aircraft.pilot: false
+      movecraft.ship.sail: false
+      movecraft.ufo.pilot: false
+      movecraft.aircraft.info: true
+      movecraft.airskiff.*: true
+      movecraft.airskiff: true
+#      : true
+  admin:
+    permissions:
+      permissions.*: true
+    inheritance:
+    - user
+  user:
+    permissions:
+      permissions.build: true
+    worlds:
+      creative:
+        coolplugin.item: true
+    inheritance:
+    - default
+messages:
+  build: '&cYou do not have permission to build here.'
+debug: false

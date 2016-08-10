@@ -1,3 +1,5 @@
+
+
 name: LightAirship
 maxSize: 1000
 minSize: 500
@@ -132,7 +134,7 @@ underwaterDetectionMultiplier: 1.0
 speed: 1.0
 cruiseSkipBlocks: 5
 cruiseSpeed: 0.445
-fuelBurnRate: 2.0
+fuelBurnRate: 0.2
 sinkPercent: 99.0
 overallSinkPercent: 60.0
 tryNudge: false

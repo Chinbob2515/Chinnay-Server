@@ -1,3 +1,5 @@
+
+
 name: SubAirship
 maxSize: 5000
 minSize: 1000
@@ -133,7 +135,7 @@ speed: 1.0
 collisionExplosion: 0.0
 detectionMultiplier: 10.0
 underwaterDetectionMultiplier: 1.0
-fuelBurnRate: 2.0
+fuelBurnRate: 0.2
 tryNudge: false
 halfSpeedUnderwater: true
 sinkPercent: 99.0

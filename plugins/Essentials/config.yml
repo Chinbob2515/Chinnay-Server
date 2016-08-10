@@ -30,7 +30,7 @@ max-nick-length: 15
 
 # When this option is enabled, nickname length checking will exclude color codes in player names.
 # ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
-ignore-colors-in-max-nick-length: false
+ignore-colors-in-max-nick-length: true
 
 # Disable this if you have any other plugin, that modifies the displayname of a user.
 change-displayname: true
@@ -312,23 +312,23 @@ kits:
 
 enabledSigns:
   #- color
-  #- balance
-  #- buy
-  #- sell
-  #- trade
+  - balance
+  - buy
+  - sell
+  - trade
   #- free
-  #- disposal
-  #- warp
-  #- kit
-  #- mail
+  - disposal
+  - warp
+  - kit
+  - mail
   #- enchant
   #- gamemode
-  #- heal
+  - heal
   #- info
   #- spawnmob
-  #- repair
-  #- time
-  #- weather
+  - repair
+  - time
+  - weather
 
 # How many times per second can Essentials signs be interacted with per player.
 # Values should be between 1-20, 20 being virtually no lag protection.
@@ -559,9 +559,9 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
-  vip: 5
-  staff: 10
+  default: 10
+  vip: 10
+  staff: 30
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.

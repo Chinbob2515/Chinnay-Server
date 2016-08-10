@@ -1,3 +1,5 @@
+
+
 name: Airskiff
 maxSize: 200
 minSize: 10
@@ -97,7 +99,7 @@ canCruise: false
 maxHeightLimit: 200
 maxHeightAboveGround: 100
 collisionExplosion: 0.0
-fuelBurnRate: 1.0
+fuelBurnRate: 0.1
 explodeOnCrash: 2.0
 sinkSpeed: 5.0
 overallSinkPercent: 60.0

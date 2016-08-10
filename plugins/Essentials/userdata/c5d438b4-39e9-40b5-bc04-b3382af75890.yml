@@ -1,0 +1,28 @@
+lastAccountName: Diplomat421
+timestamps:
+  login: 1470754323796
+  lastteleport: 1470755132141
+  logout: 1470756102756
+ipAddress: 81.110.98.62
+lastlocation:
+  world: world
+  x: 230.95902228761977
+  y: 67.0
+  z: 251.2402880085396
+  yaw: 84.89108
+  pitch: 30.599928
+homes:
+  home:
+    world: world
+    x: 253.39039738701857
+    y: 60.0
+    z: 62.30000001192097
+    yaw: 11.838806
+    pitch: 21.150066
+logoutlocation:
+  world: world
+  x: 7.699999988079068
+  y: 69.0
+  z: -618.4181693525571
+  yaw: 272.6928
+  pitch: 10.800025

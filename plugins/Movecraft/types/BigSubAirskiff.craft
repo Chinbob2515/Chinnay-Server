@@ -1,3 +1,5 @@
+
+
 name: BigSubAirskiff
 maxSize: 450
 minSize: 10
@@ -104,7 +106,7 @@ minHeightLimit: 1
 maxHeightLimit: 110
 maxHeightAboveGround: 46
 collisionExplosion: 0.0
-fuelBurnRate: 2.0
+fuelBurnRate: 0.2
 explodeOnCrash: 2.0
 sinkPercent: 99.0
 overallSinkPercent: 98.0

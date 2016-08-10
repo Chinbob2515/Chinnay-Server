@@ -30,5 +30,5 @@ TownyWorldHeightLimits:
   world:
     worldMin: -1
     worldMax: -1
-    aboveTownSpawn: 96
+    aboveTownSpawn: 116
     underTownSpawn: 255
