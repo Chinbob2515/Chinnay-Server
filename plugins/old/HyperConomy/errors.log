@@ -1,0 +1,38 @@
+
+
+HyperConomy[2016-08-10 17:37:45.373]
+SQL write failed 1 time(s). The failing SQL statement is in the following brackets: 
+[INSERT INTO hyperconomy_players (SALT, X, Y, Z, UUID, WORLD, ECONOMY, NAME, BALANCE, HASH) VALUES (?,?,?,?,?,?,?,?,?,?)]
+Parameters: [[], [194.3952608183974], [68.0], [-225.39257078392012], [c5d438b4-39e9-40b5-bc04-b3382af75890], [world], [default], [Diplomat421], [0.0], []]
+java.sql.SQLException: [SQLITE_CONSTRAINT]  Abort due to constraint violation (column UUID is not unique)
+	at org.sqlite.DB.newSQLException(DB.java:383)
+	at org.sqlite.DB.newSQLException(DB.java:387)
+	at org.sqlite.DB.execute(DB.java:342)
+	at org.sqlite.DB.executeUpdate(DB.java:363)
+	at org.sqlite.PrepStmt.executeUpdate(PrepStmt.java:85)
+	at regalowl.hyperconomy.simpledatalib.sql.DatabaseConnection.write(DatabaseConnection.java:50)
+	at regalowl.hyperconomy.simpledatalib.sql.SQLWrite$WriteTask.write(SQLWrite.java:120)
+	at regalowl.hyperconomy.simpledatalib.sql.SQLWrite$WriteTask.run(SQLWrite.java:113)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+
+
+HyperConomy[2016-08-10 17:45:45.37]
+SQL write failed 1 time(s). The failing SQL statement is in the following brackets: 
+[INSERT INTO hyperconomy_players (SALT, X, Y, Z, UUID, WORLD, ECONOMY, NAME, BALANCE, HASH) VALUES (?,?,?,?,?,?,?,?,?,?)]
+Parameters: [[], [-4080.9520264714565], [81.5], [773.9569469560147], [d1639200-231d-40e0-9abc-ec97d4a9129b], [world], [default], [Chinbob2515], [0.0], []]
+java.sql.SQLException: [SQLITE_CONSTRAINT]  Abort due to constraint violation (column UUID is not unique)
+	at org.sqlite.DB.newSQLException(DB.java:383)
+	at org.sqlite.DB.newSQLException(DB.java:387)
+	at org.sqlite.DB.execute(DB.java:342)
+	at org.sqlite.DB.executeUpdate(DB.java:363)
+	at org.sqlite.PrepStmt.executeUpdate(PrepStmt.java:85)
+	at regalowl.hyperconomy.simpledatalib.sql.DatabaseConnection.write(DatabaseConnection.java:50)
+	at regalowl.hyperconomy.simpledatalib.sql.SQLWrite$WriteTask.write(SQLWrite.java:120)
+	at regalowl.hyperconomy.simpledatalib.sql.SQLWrite$WriteTask.run(SQLWrite.java:113)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+

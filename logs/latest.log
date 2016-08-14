@@ -1,97 +1,1298 @@
-[13:45:36] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[13:45:36] [Server thread/INFO]: Loading properties
-[13:45:36] [Server thread/INFO]: Default game type: SURVIVAL
-[13:45:36] [Server thread/INFO]: Generating keypair
-[13:45:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:45:36] [Server thread/INFO]: Using epoll channel type
-[13:45:37] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-0ebb9c7 (MC: 1.10.2) (Implementing API version 1.10.2-R0.1-SNAPSHOT)
-[13:45:38] [Server thread/INFO]: [Lockette] Loading Lockette v1.8.23
-[13:45:38] [Server thread/INFO]: [PermissionsBukkit] Loading PermissionsBukkit v2.5
-[13:45:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b421
-[13:45:38] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b421
-[13:45:38] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
-[13:45:38] [Server thread/INFO]: [Movecraft] Loading Movecraft v4.6.0
-[13:45:38] [Server thread/INFO]: Preparing level "world"
-[13:45:39] [Server thread/INFO]: Preparing start region for level 0 (Seed: 153184449)
-[13:45:41] [Server thread/INFO]: Preparing spawn area: 0%
-[13:45:42] [Server thread/INFO]: Preparing spawn area: 15%
-[13:45:43] [Server thread/INFO]: Preparing spawn area: 40%
-[13:45:44] [Server thread/INFO]: Preparing spawn area: 57%
-[13:45:45] [Server thread/INFO]: Preparing spawn area: 71%
-[13:45:46] [Server thread/INFO]: Preparing spawn area: 80%
-[13:45:47] [User Authenticator #1/INFO]: UUID of player Chinbob2515 is d1639200-231d-40e0-9abc-ec97d4a9129b
-[13:45:47] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1452620748)
-[13:45:48] [Server thread/INFO]: Preparing spawn area: 27%
-[13:45:49] [Server thread/INFO]: Preparing spawn area: 63%
-[13:45:50] [Server thread/INFO]: Preparing spawn area: 96%
-[13:45:50] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8335513622996150606)
-[13:45:51] [Server thread/INFO]: [Lockette] Enabling Lockette v1.8.23
-[13:45:51] [Server thread/INFO]: [Lockette] Version 1.8.23 is being enabled!  Yay!  (Core version 1.3.5)
-[13:45:51] [Server thread/INFO]: minor >
-[13:45:51] [Server thread/INFO]: [Lockette] Detected Bukkit version [v1_10_R1] ok.
-[13:45:51] [Server thread/INFO]: [Lockette] Custom lockable block list: [116, 84, 57, 145, 154, 64, 324]
-[13:45:51] [Server thread/INFO]: [Lockette] Ignoring linked plugins: [mcMMO]
-[13:45:51] [Server thread/INFO]: [Lockette] Loading strings file for English by Acru
-[13:45:51] [Server thread/INFO]: [Lockette] Using ops file for admin permissions.
-[13:45:51] [Server thread/INFO]: [Lockette] Ready to protect your containers.
-[13:45:51] [Server thread/INFO]: [PermissionsBukkit] Enabling PermissionsBukkit v2.5
-[13:45:51] [Server thread/INFO]: [PermissionsBukkit] Enabled successfully
-[13:45:51] [Server thread/INFO]: [Lockette] Enabled link to plugin PermissionsBukkit for Groups, version 2.5
-[13:45:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b421
-[13:45:51] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsChat to the same version.
-[13:45:51] [Server thread/INFO]: Using locale en_GB
-[13:45:51] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[13:45:52] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
-[13:45:52] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[13:45:52] [Server thread/INFO]: Using locale en_GB
-[13:45:52] [Server thread/INFO]: [Essentials] Metrics disabled per PluginMetrics config.
-[13:45:52] [Server thread/WARN]: [Essentials] Detected supported permissions plugin PermissionsBukkit without Vault installed.
-[13:45:52] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[13:45:52] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[13:45:52] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b421
-[13:45:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
-[13:45:52] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
-[13:45:52] [Server thread/INFO]: [Movecraft] Enabling Movecraft v4.6.0
-[13:45:52] [Server thread/INFO]: [Movecraft] Recognized PilotTool setting of: 280
-[13:45:52] [Server thread/INFO]: [Movecraft] WARNING: CompatibilityMode was set to false, but required build-specific classes were not found. FORCING COMPATIBILITY MODE
-[13:45:52] [Server thread/INFO]: [Movecraft] CompatiblityMode is set to true
-[13:45:52] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of WorldGuard. Disabling WorldGuard integration
-[13:45:52] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of WorldEdit. Disabling WorldEdit integration
-[13:45:52] [Server thread/INFO]: [Movecraft] Movecraft did not find a compatible version of Towny. Disabling Towny integration.
-[13:45:52] [Server thread/INFO]: [Movecraft] Found a compatible version of Essentials. Enabling Essentials integration.
-[13:45:52] [Server thread/INFO]: [Movecraft] Could not find compatible Vault plugin. Disabling Vault integration.
-[13:45:52] [Server thread/INFO]: [Movecraft] Loaded 31 Craft files
-[13:45:52] [Server thread/INFO]: [Movecraft] [V 4.6.0] has been enabled.
-[13:45:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:45:53] [Server thread/INFO]: Done (14.939s)! For help, type "help" or "?"
-[13:45:53] [Server thread/INFO]: Chinbob2515[/109.149.222.43:52162] logged in with entity id 363 at ([world]-1387.2545311522063, 80.0, 841.5797967479388)
-[13:46:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6158ms behind, skipping 123 tick(s)
-[13:46:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2863ms behind, skipping 57 tick(s)
-[13:46:16] [User Authenticator #2/INFO]: UUID of player CaptainBetts is 6bbb8b68-e1de-42e2-911e-8075b2a8d19e
-[13:46:16] [Server thread/INFO]: CaptainBetts[/88.202.251.56:55599] logged in with entity id 842 at ([world]-1388.6619213349534, 100.0, 867.3000000119209)
-[13:46:31] [Netty Epoll Server IO #0/INFO]: <~Betts> No perms
-[13:47:21] [Server thread/INFO]: Configuration reloaded.
-[13:47:24] [Server thread/INFO]: [Movecraft] Player Chinbob2515 piloted a craft of type fastairskiff with size 23 at location: -1388 x, 839 z
-[13:47:27] [Netty Epoll Server IO #1/INFO]: <~Chinbob> now it works
-[13:47:54] [Netty Epoll Server IO #1/INFO]: <~Chinbob> boo
-[13:48:01] [Server thread/INFO]: Chinbob2515 issued server command: /release
-[13:48:01] [Server thread/INFO]: [Movecraft] Player Chinbob2515 has released a craft of type fastairskiff with size 23 at coordinates : -1385 x , 858 z
-[13:48:11] [Netty Epoll Server IO #1/INFO]: <~Chinbob> 5 times faster, 5 times more fuel use
-[13:48:21] [Server thread/INFO]: [Movecraft] Player CaptainBetts piloted a craft of type fastairskiff with size 78 at location: -1390 x, 865 z
-[13:48:25] [Server thread/INFO]: Chinbob2515 issued server command: /home ben
-[13:48:35] [Server thread/INFO]: Chinbob2515 issued server command: /back
-[13:48:37] [Server thread/INFO]: CaptainBetts issued server command: /release
-[13:48:37] [Server thread/INFO]: [Movecraft] Player CaptainBetts has released a craft of type fastairskiff with size 78 at coordinates : -1388 x , 865 z
-[13:48:47] [Server thread/INFO]: [Movecraft] Player CaptainBetts piloted a craft of type fastairskiff with size 78 at location: -1388 x, 865 z
-[13:48:58] [Netty Epoll Server IO #0/INFO]: <~Betts> Not much faster :P
-[13:49:06] [Server thread/INFO]: [Movecraft] Player Chinbob2515 piloted a craft of type fastairskiff with size 23 at location: -1385 x, 858 z
-[13:49:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4087ms behind, skipping 81 tick(s)
-[13:49:36] [Netty Epoll Server IO #1/INFO]: <~Chinbob> it so is
-[13:49:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2888ms behind, skipping 57 tick(s)
-[13:49:59] [Server thread/INFO]: Chinbob2515 issued server command: /release
-[13:49:59] [Server thread/INFO]: [Movecraft] Player Chinbob2515 has released a craft of type fastairskiff with size 23 at coordinates : -1387 x , 840 z
-[13:50:03] [Server thread/INFO]: CaptainBetts issued server command: /home c
-[13:50:16] [Server thread/INFO]: CaptainBetts issued server command: /back
-[13:50:26] [Netty Epoll Server IO #1/INFO]: <~Chinbob> if you want to make another craft file, I'll add it
-[13:50:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3172ms behind, skipping 63 tick(s)
-[13:50:50] [Netty Epoll Server IO #0/INFO]: <~Betts> I'm gonna explore in this craft
+[00:00:51] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:00:53] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:05:53] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:05:55] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:10:55] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:10:56] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:15:56] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:15:57] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:20:57] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:20:59] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:25:19] [Server thread/INFO]: Saving...
+[00:25:19] [Server thread/INFO]: Saved the world
+[00:25:59] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:26:00] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:31:00] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:31:03] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:36:03] [pool-3-thread-23/INFO]: [BuycraftX] Fetching all due players...
+[00:36:04] [pool-3-thread-23/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:41:04] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[00:41:06] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:46:06] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[00:46:08] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:51:08] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[00:51:10] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[00:55:19] [Server thread/INFO]: Saving...
+[00:55:19] [Server thread/INFO]: Saved the world
+[00:56:10] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[00:56:12] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:01:00] [Server thread/WARN]: [Movecraft] Task #17 for Movecraft v4.6.0 generated an exception
+java.lang.NullPointerException
+	at net.countercraft.movecraft.async.AsyncManager.processSiege(AsyncManager.java:1073) ~[?:?]
+	at net.countercraft.movecraft.async.AsyncManager.run(AsyncManager.java:1099) ~[?:?]
+	at org.bukkit.craftbukkit.v1_10_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at org.bukkit.craftbukkit.v1_10_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:349) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:697) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+[01:01:12] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:01:13] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:06:13] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:06:15] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:11:15] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:11:16] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:16:16] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:16:18] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:21:18] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:21:20] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:25:19] [Server thread/INFO]: Saving...
+[01:25:19] [Server thread/INFO]: Saved the world
+[01:26:19] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:26:21] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:31:21] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:31:22] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:36:22] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:36:24] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:41:24] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:41:26] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:46:26] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:46:28] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:51:28] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:51:29] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[01:55:19] [Server thread/INFO]: Saving...
+[01:55:19] [Server thread/INFO]: Saved the world
+[01:56:29] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[01:56:30] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:01:30] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[02:01:32] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:06:32] [pool-3-thread-32/INFO]: [BuycraftX] Fetching all due players...
+[02:06:33] [pool-3-thread-32/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:11:33] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:11:35] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:16:35] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:16:37] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:21:37] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:21:38] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:25:19] [Server thread/INFO]: Saving...
+[02:25:19] [Server thread/INFO]: Saved the world
+[02:26:38] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:26:40] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:31:40] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:31:42] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:36:42] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:36:43] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:41:43] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:41:45] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:46:45] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:46:47] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:51:47] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:51:49] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[02:55:19] [Server thread/INFO]: Saving...
+[02:55:19] [Server thread/INFO]: Saved the world
+[02:56:49] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[02:56:51] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:01:51] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:01:52] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:06:52] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:06:54] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:11:54] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:11:56] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:16:55] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:16:57] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:21:57] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:21:59] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:25:19] [Server thread/INFO]: Saving...
+[03:25:19] [Server thread/INFO]: Saved the world
+[03:26:59] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:27:00] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:32:00] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:32:02] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:37:02] [pool-3-thread-55/INFO]: [BuycraftX] Fetching all due players...
+[03:37:04] [pool-3-thread-55/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:42:04] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[03:42:06] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:47:06] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[03:47:08] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:52:08] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[03:52:09] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[03:55:19] [Server thread/INFO]: Saving...
+[03:55:19] [Server thread/INFO]: Saved the world
+[03:57:09] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[03:57:11] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:02:11] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[04:02:12] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:07:12] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[04:07:14] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:12:14] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[04:12:15] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:17:15] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[04:17:17] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:22:17] [pool-3-thread-83/INFO]: [BuycraftX] Fetching all due players...
+[04:22:19] [pool-3-thread-83/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:25:19] [Server thread/INFO]: Saving...
+[04:25:19] [pool-3-thread-97/INFO]: [Vault] Checking for Updates ... 
+[04:25:19] [Server thread/INFO]: Saved the world
+[04:25:19] [pool-3-thread-97/INFO]: [Vault] No new version available
+[04:27:19] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[04:27:20] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:32:20] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[04:32:22] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:37:22] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[04:37:23] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:42:23] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[04:42:25] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:47:25] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[04:47:26] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:52:26] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[04:52:28] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[04:55:19] [Server thread/INFO]: Saving...
+[04:55:19] [Server thread/INFO]: Saved the world
+[04:57:28] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[04:57:29] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:02:29] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[05:02:31] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:07:31] [pool-3-thread-97/INFO]: [BuycraftX] Fetching all due players...
+[05:07:33] [pool-3-thread-97/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:12:33] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:12:34] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:17:34] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:17:36] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:22:36] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:22:38] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:25:19] [Server thread/INFO]: Saving...
+[05:25:19] [Server thread/INFO]: Saved the world
+[05:27:38] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:27:40] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:32:40] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:32:42] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:37:42] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:37:43] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:42:43] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:42:45] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:47:45] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:47:47] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:52:47] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:52:49] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[05:55:19] [Server thread/INFO]: Saving...
+[05:55:19] [Server thread/INFO]: Saved the world
+[05:57:49] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[05:57:50] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:02:50] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[06:02:52] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:07:52] [pool-3-thread-111/INFO]: [BuycraftX] Fetching all due players...
+[06:07:54] [pool-3-thread-111/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:12:54] [pool-3-thread-130/INFO]: [BuycraftX] Fetching all due players...
+[06:12:56] [pool-3-thread-130/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:17:56] [pool-3-thread-130/INFO]: [BuycraftX] Fetching all due players...
+[06:17:58] [pool-3-thread-130/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:22:58] [pool-3-thread-130/INFO]: [BuycraftX] Fetching all due players...
+[06:22:59] [pool-3-thread-130/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:25:19] [Server thread/INFO]: Saving...
+[06:25:19] [Server thread/INFO]: Saved the world
+[06:27:59] [pool-3-thread-130/INFO]: [BuycraftX] Fetching all due players...
+[06:28:00] [pool-3-thread-130/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:33:00] [pool-3-thread-130/INFO]: [BuycraftX] Fetching all due players...
+[06:33:02] [pool-3-thread-130/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:38:02] [pool-3-thread-130/INFO]: [BuycraftX] Fetching all due players...
+[06:38:03] [pool-3-thread-130/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:43:03] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[06:43:05] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:48:05] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[06:48:07] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:53:07] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[06:53:09] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[06:55:19] [Server thread/INFO]: Saving...
+[06:55:19] [Server thread/INFO]: Saved the world
+[06:58:08] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[06:58:10] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:03:10] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[07:03:12] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:08:12] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[07:08:13] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:13:13] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[07:13:15] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:18:15] [pool-3-thread-139/INFO]: [BuycraftX] Fetching all due players...
+[07:18:16] [pool-3-thread-139/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:23:16] [pool-3-thread-152/INFO]: [BuycraftX] Fetching all due players...
+[07:23:18] [pool-3-thread-152/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:25:19] [Server thread/INFO]: Saving...
+[07:25:19] [Server thread/INFO]: Saved the world
+[07:28:18] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[07:28:19] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:33:19] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[07:33:21] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:38:21] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[07:38:23] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:43:23] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[07:43:25] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:48:25] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[07:48:26] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:53:26] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[07:53:27] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[07:55:19] [Server thread/INFO]: Saving...
+[07:55:19] [Server thread/INFO]: Saved the world
+[07:58:27] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[07:58:29] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:03:29] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[08:03:31] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:08:31] [pool-3-thread-153/INFO]: [BuycraftX] Fetching all due players...
+[08:08:33] [pool-3-thread-153/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:13:33] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:13:35] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:18:35] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:18:36] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:23:36] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:23:38] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:25:19] [Server thread/INFO]: Saving...
+[08:25:19] [Server thread/INFO]: Saved the world
+[08:28:38] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:28:39] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:33:39] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:33:41] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:38:41] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:38:43] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:43:43] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:43:44] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:48:44] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:48:46] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:53:46] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:53:47] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[08:55:19] [Server thread/INFO]: Saving...
+[08:55:19] [Server thread/INFO]: Saved the world
+[08:58:47] [pool-3-thread-167/INFO]: [BuycraftX] Fetching all due players...
+[08:58:49] [pool-3-thread-167/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:00:37] [User Authenticator #5/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[09:00:37] [Server thread/INFO]: biologit[/86.128.225.7:55111] logged in with entity id 38985 at ([world]231.5, 66.0, 260.5)
+[09:01:05] [Netty Epoll Server IO #1/INFO]: <biologit> M E M E S
+[09:03:49] [pool-3-thread-183/INFO]: [BuycraftX] Fetching all due players...
+[09:03:50] [pool-3-thread-183/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:07:02] [Server thread/INFO]: biologit has just earned the achievement [Taking Inventory]
+[09:07:02] [Server thread/INFO]: biologit has just earned the achievement [Getting Wood]
+[09:08:50] [pool-3-thread-183/INFO]: [BuycraftX] Fetching all due players...
+[09:08:52] [pool-3-thread-183/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:11:03] [Server thread/INFO]: biologit issued server command: /about
+[09:11:07] [Server thread/INFO]: biologit issued server command: /op
+[09:13:52] [pool-3-thread-183/INFO]: [BuycraftX] Fetching all due players...
+[09:13:55] [pool-3-thread-183/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:15:50] [Server thread/INFO]: biologit lost connection: Disconnected
+[09:15:50] [Server thread/INFO]: biologit left the game.
+[09:16:20] [User Authenticator #6/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[09:16:21] [Server thread/INFO]: biologit[/86.128.225.7:56290] logged in with entity id 44136 at ([world]219.30000001192093, 66.0, 244.63751039198377)
+[09:18:55] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:18:56] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:21:49] [Server thread/INFO]: biologit issued server command: /day
+[09:21:49] [Server thread/INFO]: §cbiologit §4was denied access to command.
+[09:23:56] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:23:58] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:25:19] [Server thread/INFO]: Saving...
+[09:25:19] [Server thread/INFO]: Saved the world
+[09:28:58] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:28:59] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:33:59] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:34:01] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:36:09] [Server thread/INFO]: biologit has just earned the achievement [Benchmarking]
+[09:39:01] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:39:02] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:44:02] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:44:04] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:49:04] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:49:06] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:54:06] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:54:08] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[09:54:29] [Server thread/INFO]: [Lockette] biologit has protected a block or door.
+[09:55:19] [Server thread/INFO]: Saving...
+[09:55:19] [Server thread/INFO]: Saved the world
+[09:59:08] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[09:59:09] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:04:09] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[10:04:10] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:05:04] [Server thread/INFO]: biologit issued server command: /home
+[10:09:10] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[10:09:12] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:14:12] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[10:14:13] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:15:31] [Server thread/INFO]: biologit issued server command: /home
+[10:16:01] [Server thread/INFO]: biologit issued server command: /back
+[10:19:13] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[10:19:15] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:23:36] [User Authenticator #7/INFO]: UUID of player CaptainBetts is 6bbb8b68-e1de-42e2-911e-8075b2a8d19e
+[10:23:37] [Server thread/INFO]: CaptainBetts[/88.202.251.56:54274] logged in with entity id 52167 at ([world]-4095.1694004064916, 76.0, 826.9117686185801)
+[10:23:40] [Netty Epoll Server IO #0/INFO]: <biologit> Yo
+[10:23:42] [Netty Epoll Server IO #1/INFO]: <~Betts> YO
+[10:23:44] [Server thread/INFO]: CaptainBetts issued server command: /HOME HOME
+[10:24:06] [Server thread/INFO]: biologit issued server command: /tp CaptainBetts
+[10:24:06] [Server thread/INFO]: §cbiologit §4was denied access to command.
+[10:24:09] [Server thread/INFO]: biologit issued server command: /tpa CaptainBetts
+[10:24:14] [Server thread/INFO]: CaptainBetts issued server command: /SPAWN
+[10:24:15] [pool-3-thread-189/INFO]: [BuycraftX] Fetching all due players...
+[10:24:16] [Server thread/INFO]: CaptainBetts issued server command: /TPACCEPT
+[10:24:17] [pool-3-thread-189/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:24:20] [Netty Epoll Server IO #0/INFO]: <biologit> Oh
+[10:24:24] [Netty Epoll Server IO #0/INFO]: <biologit> I teleported 8 blocks
+[10:24:30] [Netty Epoll Server IO #0/INFO]: <biologit> Grazie
+[10:24:35] [Netty Epoll Server IO #0/INFO]: <biologit> Got much normal cobble?
+[10:24:51] [Netty Epoll Server IO #1/INFO]: <~Betts> Nah, used it up on a villager 'political correction camp'
+[10:24:59] [Netty Epoll Server IO #0/INFO]: <biologit> Darn, I'll dig some then
+[10:25:14] [Netty Epoll Server IO #0/INFO]: <biologit> That sounds like a great communit project...
+[10:25:19] [pool-3-thread-210/INFO]: [Vault] Checking for Updates ... 
+[10:25:19] [Server thread/INFO]: Saving...
+[10:25:19] [Server thread/INFO]: Saved the world
+[10:25:19] [Netty Epoll Server IO #0/INFO]: <biologit> BRB
+[10:25:19] [pool-3-thread-210/INFO]: [Vault] No new version available
+[10:25:22] [Netty Epoll Server IO #1/INFO]: <~Betts> ok
+[10:25:28] [Server thread/INFO]: biologit lost connection: Disconnected
+[10:25:28] [Server thread/INFO]: biologit left the game.
+[10:28:45] [User Authenticator #8/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[10:28:45] [Server thread/INFO]: biologit[/86.128.225.7:61746] logged in with entity id 53471 at ([world]228.30000001192093, 66.0, 250.30000001192093)
+[10:28:49] [Netty Epoll Server IO #1/INFO]: <biologit> Yo
+[10:28:58] [Netty Epoll Server IO #1/INFO]: <~Betts> Good work with the flattening by the way :)
+[10:29:04] [Netty Epoll Server IO #1/INFO]: <biologit> Grazie mille
+[10:29:13] [Netty Epoll Server IO #1/INFO]: <~Betts> I gtg soon
+[10:29:17] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[10:29:17] [Netty Epoll Server IO #1/INFO]: <biologit> NO CREATIVITY NO EMOTION ONLY FLATNESS
+[10:29:18] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:29:19] [Netty Epoll Server IO #1/INFO]: <biologit> Okay
+[10:29:27] [Netty Epoll Server IO #1/INFO]: <biologit> I'll dig some cobble then get to work on the paths
+[10:29:31] [Netty Epoll Server IO #1/INFO]: <~Betts> Coolio
+[10:29:40] [Server thread/INFO]: [Lockette] biologit has protected a block or door.
+[10:30:02] [Netty Epoll Server IO #1/INFO]: <biologit> So Im'ma take a couple of these lots
+[10:30:15] [Netty Epoll Server IO #1/INFO]: <~Betts> That's fine
+[10:30:19] [Netty Epoll Server IO #1/INFO]: <~Betts> There are 42
+[10:30:21] [Netty Epoll Server IO #1/INFO]: <biologit> Gosh
+[10:30:27] [Netty Epoll Server IO #1/INFO]: <biologit> Maybe I'll take 3
+[10:30:27] [Netty Epoll Server IO #1/INFO]: <~Betts> 7*6
+[10:30:33] [Netty Epoll Server IO #1/INFO]: <~Betts> yeah, use as many as you want
+[10:30:53] [Netty Epoll Server IO #1/INFO]: <~Betts> Most are 12*12
+[10:31:07] [Netty Epoll Server IO #1/INFO]: <~Betts> But ones near the central path are 19*12
+[10:31:18] [Netty Epoll Server IO #1/INFO]: <biologit> sleep?
+[10:31:21] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok
+[10:31:23] [Server thread/INFO]: biologit issued server command: /home
+[10:31:32] [Server thread/INFO]: biologit issued server command: /back
+[10:32:31] [Netty Epoll Server IO #1/INFO]: <~Betts> There's a spider dungeon below spawn btw
+[10:32:35] [Netty Epoll Server IO #1/INFO]: <biologit> Okay
+[10:32:54] [Server thread/INFO]: biologit issued server command: /home
+[10:33:16] [Netty Epoll Server IO #1/INFO]: <biologit> i think there's a creeper down there
+[10:33:18] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok
+[10:33:34] [Netty Epoll Server IO #1/INFO]: <biologit> Got him
+[10:33:38] [Netty Epoll Server IO #1/INFO]: <~Betts> Nice
+[10:33:40] [Server thread/INFO]: biologit issued server command: /top
+[10:33:40] [Server thread/INFO]: §cbiologit §4was denied access to command.
+[10:34:18] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[10:34:20] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:34:33] [Netty Epoll Server IO #1/INFO]: <~Betts> If you need to join two plots together, feel free to remove the road
+[10:34:38] [Netty Epoll Server IO #1/INFO]: <biologit> Okay, thanks
+[10:35:16] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[10:35:18] [Netty Epoll Server IO #1/INFO]: <biologit> I might give streets names
+[10:35:24] [Netty Epoll Server IO #1/INFO]: <~Betts> ok, good idea
+[10:35:26] [Netty Epoll Server IO #1/INFO]: <biologit> Or at least for now do it new york stlye with numbers
+[10:35:33] [Netty Epoll Server IO #1/INFO]: <~Betts> mm
+[10:35:35] [Server thread/INFO]: CaptainBetts issued server command: /back
+[10:35:43] [Netty Epoll Server IO #1/INFO]: <biologit> Until roads have defining characteristics we can name
+[10:35:48] [Server thread/INFO]: CaptainBetts issued server command: /back
+[10:35:56] [Netty Epoll Server IO #1/INFO]: <biologit> Or maybe I'll just use a random naming scheme
+[10:36:02] [Netty Epoll Server IO #1/INFO]: <~Betts> Like 'scrotum avenue'
+[10:36:05] [Netty Epoll Server IO #1/INFO]: <biologit> I think tree names
+[10:36:25] [Server thread/INFO]: CaptainBetts issued server command: /back
+[10:36:43] [Netty Epoll Server IO #1/INFO]: <biologit> So I have one 12*17 plot for my house, and two merged 12*12s for farming and temporarily a quarry
+[10:36:50] [Netty Epoll Server IO #1/INFO]: <~Betts> Sure
+[10:37:16] [Netty Epoll Server IO #1/INFO]: <biologit> Could i perhaps borrow a little iron for some picks?
+[10:37:24] [Netty Epoll Server IO #1/INFO]: <biologit> I'll pay back later
+[10:37:30] [Netty Epoll Server IO #1/INFO]: <~Betts> ok
+[10:37:34] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[10:37:38] [Netty Epoll Server IO #1/INFO]: <biologit> Can I have like 15?
+[10:37:42] [Netty Epoll Server IO #1/INFO]: <biologit> Ingots that is
+[10:37:49] [Server thread/INFO]: CaptainBetts issued server command: /back
+[10:37:58] [Netty Epoll Server IO #1/INFO]: <~Betts> Ah, no ingots unfortunately
+[10:38:06] [Netty Epoll Server IO #1/INFO]: <biologit> Well just ore or picks or whatever then
+[10:38:11] [Netty Epoll Server IO #1/INFO]: <biologit> Just wanna speed up this digging
+[10:38:13] [Server thread/INFO]: CaptainBetts issued server command: /tpa biol
+[10:38:17] [Server thread/INFO]: biologit issued server command: /tpaccept
+[10:38:25] [Netty Epoll Server IO #1/INFO]: <biologit> Grazie
+[10:38:33] [Netty Epoll Server IO #1/INFO]: <~Betts> I have 4 ore, used it all on iron bars
+[10:38:36] [Netty Epoll Server IO #1/INFO]: <~Betts> For the camp
+[10:38:37] [Server thread/INFO]: CaptainBetts issued server command: /back
+[10:38:40] [Netty Epoll Server IO #1/INFO]: <biologit> Cool, thanks anyway
+[10:38:48] [Netty Epoll Server IO #1/INFO]: <biologit> I'll probably find more during the dig
+[10:38:52] [Netty Epoll Server IO #1/INFO]: <~Betts> Yeah
+[10:39:20] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[10:39:21] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:39:34] [Netty Epoll Server IO #1/INFO]: <biologit> BBS
+[10:39:35] [Server thread/INFO]: biologit lost connection: Disconnected
+[10:39:35] [Server thread/INFO]: biologit left the game.
+[10:40:40] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[10:40:43] [Server thread/WARN]: CaptainBetts moved too quickly! -1065.9181283548915,-11.078400001525878,-1633.199999988079
+[10:44:21] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[10:44:23] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:47:36] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[10:49:23] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[10:49:24] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:53:44] [Server thread/INFO]: CaptainBetts fell from a high place
+[10:53:48] [Server thread/INFO]: CaptainBetts issued server command: /back
+[10:54:24] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[10:54:26] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[10:55:19] [Server thread/INFO]: Saving...
+[10:55:19] [Server thread/INFO]: Saved the world
+[10:59:26] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[10:59:27] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:04:27] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[11:04:29] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:09:29] [pool-3-thread-211/INFO]: [BuycraftX] Fetching all due players...
+[11:09:31] [pool-3-thread-211/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:14:31] [pool-3-thread-219/INFO]: [BuycraftX] Fetching all due players...
+[11:14:32] [pool-3-thread-219/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:19:32] [pool-3-thread-219/INFO]: [BuycraftX] Fetching all due players...
+[11:19:34] [pool-3-thread-219/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:21:13] [User Authenticator #9/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[11:21:13] [Server thread/INFO]: biologit[/86.128.225.7:50697] logged in with entity id 57214 at ([world]223.346214629438, 60.0, 225.3562908680367)
+[11:21:19] [Netty Epoll Server IO #1/INFO]: <biologit> Yo
+[11:22:05] [Server thread/INFO]: biologit has just earned the achievement [Time to Mine!]
+[11:22:05] [Server thread/INFO]: biologit has just earned the achievement [Getting an Upgrade]
+[11:22:14] [Server thread/INFO]: biologit has just earned the achievement [Hot Topic]
+[11:22:35] [Server thread/INFO]: [Lockette] biologit has protected a block or door.
+[11:24:15] [Server thread/INFO]: biologit has just earned the achievement [Acquire Hardware]
+[11:24:34] [pool-3-thread-222/INFO]: [BuycraftX] Fetching all due players...
+[11:24:36] [pool-3-thread-222/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:25:19] [Server thread/INFO]: Saving...
+[11:25:19] [Server thread/INFO]: Saved the world
+[11:29:36] [pool-3-thread-222/INFO]: [BuycraftX] Fetching all due players...
+[11:29:38] [pool-3-thread-222/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:34:37] [pool-3-thread-222/INFO]: [BuycraftX] Fetching all due players...
+[11:34:39] [pool-3-thread-222/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:39:39] [pool-3-thread-222/INFO]: [BuycraftX] Fetching all due players...
+[11:39:41] [pool-3-thread-222/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:44:41] [pool-3-thread-222/INFO]: [BuycraftX] Fetching all due players...
+[11:44:43] [pool-3-thread-222/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:49:43] [pool-3-thread-222/INFO]: [BuycraftX] Fetching all due players...
+[11:49:44] [pool-3-thread-222/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:50:11] [Server thread/INFO]: biologit issued server command: /home
+[11:50:26] [Server thread/INFO]: biologit issued server command: /back
+[11:51:39] [Server thread/INFO]: biologit issued server command: /back
+[11:53:07] [Server thread/INFO]: biologit has just earned the achievement [Time to Strike!]
+[11:54:13] [Server thread/INFO]: biologit issued server command: /sethome
+[11:54:24] [Server thread/INFO]: biologit issued server command: /back
+[11:54:44] [pool-3-thread-222/INFO]: [BuycraftX] Fetching all due players...
+[11:54:46] [pool-3-thread-222/INFO]: [BuycraftX] Fetched due players (0 found).
+[11:55:19] [Server thread/INFO]: Saving...
+[11:55:19] [Server thread/INFO]: Saved the world
+[11:55:28] [Server thread/INFO]: biologit issued server command: /home
+[11:55:39] [Server thread/INFO]: biologit issued server command: /back
+[11:59:46] [pool-3-thread-229/INFO]: [BuycraftX] Fetching all due players...
+[11:59:47] [pool-3-thread-229/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:04:47] [pool-3-thread-229/INFO]: [BuycraftX] Fetching all due players...
+[12:04:49] [pool-3-thread-229/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:06:13] [Server thread/INFO]: CONSOLE issued server command: /list 
+[12:06:13] [Server thread/INFO]: There are 2 out of maximum 400 players online.
+[12:06:13] [Server thread/INFO]: default: biologit, ~Betts
+[12:06:18] [Server thread/INFO]: CONSOLE issued server command: /bc hhhhhhhhhhey charlies
+[12:06:21] [Netty Epoll Server IO #1/INFO]: <biologit> HEyyyy
+[12:09:49] [pool-3-thread-229/INFO]: [BuycraftX] Fetching all due players...
+[12:09:51] [pool-3-thread-229/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:10:34] [User Authenticator #10/INFO]: UUID of player Chinbob2515 is d1639200-231d-40e0-9abc-ec97d4a9129b
+[12:10:34] [Server thread/INFO]: Chinbob2515[/81.156.189.188:50189] logged in with entity id 63012 at ([world]-3985.750475380236, 105.0, 621.3000000119209)
+[12:10:37] [Netty Epoll Server IO #1/INFO]: <biologit> Yo
+[12:10:45] [Netty Epoll Server IO #1/INFO]: <biologit> I've been smartening up spawn
+[12:10:51] [Netty Epoll Server IO #1/INFO]: <biologit> But I'm spelunking atm
+[12:11:24] [Server thread/INFO]: biologit issued server command: /home
+[12:11:49] [Server thread/INFO]: biologit issued server command: /back
+[12:12:26] [Server thread/INFO]: Chinbob2515 issued server command: /spawn
+[12:13:16] [Server thread/INFO]: Chinbob2515 issued server command: /home ben
+[12:14:19] [Server thread/INFO]: Chinbob2515 issued server command: /home chests
+[12:14:51] [pool-3-thread-232/INFO]: [BuycraftX] Fetching all due players...
+[12:14:52] [pool-3-thread-232/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:18:53] [Server thread/INFO]: Chinbob2515 issued server command: /home village
+[12:19:52] [pool-3-thread-232/INFO]: [BuycraftX] Fetching all due players...
+[12:19:54] [pool-3-thread-232/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:20:12] [Server thread/INFO]: biologit has just earned the achievement [Monster Hunter]
+[12:24:45] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3007ms behind, skipping 60 tick(s)
+[12:24:55] [pool-3-thread-232/INFO]: [BuycraftX] Fetching all due players...
+[12:24:56] [pool-3-thread-232/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:25:20] [Server thread/INFO]: Saving...
+[12:25:20] [Server thread/INFO]: Saved the world
+[12:26:05] [Server thread/INFO]: biologit issued server command: /spawn
+[12:26:07] [Server thread/INFO]: biologit issued server command: /back
+[12:26:10] [Server thread/INFO]: biologit issued server command: /back
+[12:26:14] [Server thread/INFO]: biologit issued server command: /back
+[12:29:56] [pool-3-thread-232/INFO]: [BuycraftX] Fetching all due players...
+[12:29:59] [pool-3-thread-232/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:31:04] [Server thread/INFO]: Chinbob2515 issued server command: /home betts
+[12:32:15] [Server thread/INFO]: Chinbob2515 issued server command: /home village
+[12:32:23] [Server thread/INFO]: Chinbob2515 issued server command: /home betts
+[12:33:19] [Server thread/INFO]: Chinbob2515 has just earned the achievement [Local Brewery]
+[12:34:15] [Server thread/INFO]: biologit issued server command: /home
+[12:34:38] [Server thread/INFO]: biologit issued server command: /back
+[12:34:59] [pool-3-thread-232/INFO]: [BuycraftX] Fetching all due players...
+[12:35:00] [pool-3-thread-232/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:40:00] [pool-3-thread-232/INFO]: [BuycraftX] Fetching all due players...
+[12:40:02] [pool-3-thread-232/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:40:41] [Server thread/INFO]: biologit issued server command: /home
+[12:40:47] [Server thread/INFO]: biologit issued server command: /back
+[12:41:55] [Server thread/INFO]: biologit was shot by Skeleton
+[12:41:59] [Server thread/INFO]: biologit issued server command: /back
+[12:43:04] [Server thread/INFO]: biologit lost connection: Disconnected
+[12:43:04] [Server thread/INFO]: biologit left the game.
+[12:45:02] [pool-3-thread-239/INFO]: [BuycraftX] Fetching all due players...
+[12:45:04] [pool-3-thread-239/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:47:11] [User Authenticator #11/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[12:47:11] [Server thread/INFO]: biologit[/86.128.225.7:56555] logged in with entity id 71734 at ([world]225.42107316043405, 45.0, 216.30000001192093)
+[12:48:44] [Server thread/INFO]: biologit issued server command: /sethome ravine
+[12:48:46] [Server thread/INFO]: biologit issued server command: /home
+[12:50:04] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[12:50:05] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:55:05] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[12:55:07] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[12:55:20] [Server thread/INFO]: Saving...
+[12:55:20] [Server thread/INFO]: Saved the world
+[12:58:44] [Server thread/INFO]: Chinbob2515 lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
+[12:58:44] [Server thread/INFO]: Chinbob2515 left the game.
+[13:00:07] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[13:00:10] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:05:00] [Server thread/INFO]: biologit issued server command: /home quarry
+[13:05:02] [Server thread/INFO]: biologit issued server command: /home ravine
+[13:05:10] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[13:05:11] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:09:47] [Server thread/INFO]: biologit issued server command: /home home
+[13:10:11] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[13:10:12] [Server thread/INFO]: biologit issued server command: /back
+[13:10:13] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:11:26] [Server thread/INFO]: biologit has just earned the achievement [DIAMONDS!]
+[13:12:37] [Server thread/INFO]: biologit issued server command: /home home
+[13:12:41] [Server thread/INFO]: biologit issued server command: /back
+[13:15:13] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[13:15:14] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:18:11] [Server thread/INFO]: biologit issued server command: /home home
+[13:18:14] [Server thread/INFO]: biologit issued server command: /home
+[13:18:20] [Server thread/INFO]: biologit issued server command: /delhome ravine
+[13:19:00] [Server thread/INFO]: biologit issued server command: /home home
+[13:20:14] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[13:20:16] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:25:16] [pool-3-thread-241/INFO]: [BuycraftX] Fetching all due players...
+[13:25:17] [pool-3-thread-241/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:25:20] [Server thread/INFO]: Saving...
+[13:25:20] [Server thread/INFO]: Saved the world
+[13:30:17] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[13:30:19] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:35:19] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[13:35:21] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:40:21] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[13:40:22] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:41:28] [Netty Epoll Server IO #0/INFO]: <biologit> Betts?
+[13:45:08] [Server thread/INFO]: biologit issued server command: /home home
+[13:45:22] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[13:45:24] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:47:05] [Server thread/INFO]: biologit issued server command: /home
+[13:47:19] [Server thread/INFO]: biologit has just earned the achievement [Time to Farm!]
+[13:47:22] [Server thread/INFO]: biologit issued server command: /back
+[13:48:52] [Server thread/INFO]: biologit has just earned the achievement [Bake Bread]
+[13:50:24] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[13:50:26] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:51:06] [Server thread/INFO]: biologit was slain by Enderman
+[13:51:11] [Server thread/INFO]: biologit issued server command: /back
+[13:52:19] [Server thread/INFO]: biologit issued server command: /home home
+[13:52:25] [Server thread/INFO]: biologit issued server command: /back
+[13:54:19] [Server thread/INFO]: biologit issued server command: /sethome pine
+[13:55:06] [Server thread/INFO]: biologit has just earned the achievement [Cow Tipper]
+[13:55:20] [Server thread/INFO]: Saving...
+[13:55:20] [Server thread/INFO]: Saved the world
+[13:55:26] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[13:55:28] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[13:59:10] [Server thread/INFO]: biologit issued server command: /sethome podzol
+[14:00:28] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:00:29] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:02:28] [Server thread/INFO]: biologit issued server command: /sethome mountaints
+[14:02:35] [Server thread/INFO]: biologit issued server command: /delhome mountaints
+[14:02:40] [Server thread/INFO]: biologit issued server command: /sethome mountains
+[14:03:21] [Server thread/INFO]: biologit issued server command: /sethome mountains2
+[14:05:29] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:05:31] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:05:36] [Server thread/INFO]: biologit issued server command: /sethome mountains2
+[14:08:36] [Server thread/INFO]: biologit issued server command: /sethome mountains 3
+[14:08:38] [Server thread/INFO]: biologit issued server command: /sethome mountains3
+[14:10:31] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:10:32] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:11:06] [Server thread/INFO]: biologit issued server command: /sethome mountains 4
+[14:11:09] [Server thread/INFO]: biologit issued server command: /sethome mountains4
+[14:15:32] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:15:34] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:17:58] [Server thread/INFO]: biologit issued server command: /sethome swamp
+[14:18:48] [Server thread/INFO]: biologit issued server command: /sethome birch
+[14:20:34] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:20:35] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:25:01] [Server thread/INFO]: biologit issued server command: /sethome ocean
+[14:25:03] [Server thread/INFO]: biologit issued server command: /home
+[14:25:08] [Server thread/INFO]: biologit issued server command: /home home
+[14:25:21] [Server thread/INFO]: Saving...
+[14:25:21] [Server thread/INFO]: Saved the world
+[14:25:28] [Server thread/INFO]: CONSOLE issued server command: /list 
+[14:25:28] [Server thread/INFO]: There are 2 out of maximum 400 players online.
+[14:25:28] [Server thread/INFO]: default: biologit, ~Betts
+[14:25:35] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:25:37] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:25:48] [Server thread/INFO]: biologit issued server command: /home birch
+[14:30:21] [Server thread/INFO]: biologit issued server command: /home birch
+[14:30:37] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:30:39] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:31:02] [Server thread/INFO]: biologit issued server command: /home home
+[14:35:39] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:35:41] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:40:09] [Server thread/INFO]: [Lockette] biologit has protected a block or door.
+[14:40:41] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:40:42] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:44:00] [Server thread/INFO]: biologit issued server command: /home home
+[14:45:42] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:45:44] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:50:44] [pool-3-thread-249/INFO]: [BuycraftX] Fetching all due players...
+[14:50:46] [pool-3-thread-249/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:55:20] [Server thread/INFO]: Saving...
+[14:55:20] [Server thread/INFO]: Saved the world
+[14:55:46] [pool-3-thread-268/INFO]: [BuycraftX] Fetching all due players...
+[14:55:48] [pool-3-thread-268/INFO]: [BuycraftX] Fetched due players (0 found).
+[14:57:36] [Server thread/INFO]: biologit lost connection: Disconnected
+[14:57:36] [Server thread/INFO]: biologit left the game.
+[15:00:48] [pool-3-thread-268/INFO]: [BuycraftX] Fetching all due players...
+[15:00:50] [pool-3-thread-268/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:05:50] [pool-3-thread-268/INFO]: [BuycraftX] Fetching all due players...
+[15:05:52] [pool-3-thread-268/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:10:25] [Server thread/INFO]: CONSOLE issued server command: /list 
+[15:10:25] [Server thread/INFO]: There are 1 out of maximum 400 players online.
+[15:10:25] [Server thread/INFO]: default: ~Betts
+[15:10:52] [pool-3-thread-268/INFO]: [BuycraftX] Fetching all due players...
+[15:10:53] [pool-3-thread-268/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:15:53] [pool-3-thread-268/INFO]: [BuycraftX] Fetching all due players...
+[15:15:55] [pool-3-thread-268/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:20:55] [pool-3-thread-268/INFO]: [BuycraftX] Fetching all due players...
+[15:20:57] [pool-3-thread-268/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:21:27] [User Authenticator #12/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[15:21:27] [Server thread/INFO]: biologit[/86.128.225.7:51556] logged in with entity id 88074 at ([world]243.28583244068773, 64.0, 255.11052879220347)
+[15:25:20] [Server thread/INFO]: Saving...
+[15:25:20] [Server thread/INFO]: Saved the world
+[15:25:57] [pool-3-thread-273/INFO]: [BuycraftX] Fetching all due players...
+[15:25:58] [pool-3-thread-273/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:30:58] [pool-3-thread-273/INFO]: [BuycraftX] Fetching all due players...
+[15:31:00] [pool-3-thread-273/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:36:00] [pool-3-thread-273/INFO]: [BuycraftX] Fetching all due players...
+[15:36:01] [pool-3-thread-273/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:41:01] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[15:41:03] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:46:03] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[15:46:05] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:51:05] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[15:51:07] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:55:20] [Server thread/INFO]: Saving...
+[15:55:20] [Server thread/INFO]: Saved the world
+[15:56:07] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[15:56:09] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:01:09] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[16:01:11] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:06:11] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[16:06:13] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:11:13] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[16:11:15] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:12:32] [Server thread/INFO]: biologit issued server command: /home home
+[16:12:38] [Server thread/INFO]: biologit issued server command: /back
+[16:14:46] [Server thread/INFO]: biologit lost connection: Disconnected
+[16:14:46] [Server thread/INFO]: biologit left the game.
+[16:16:15] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[16:16:17] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:21:17] [pool-3-thread-277/INFO]: [BuycraftX] Fetching all due players...
+[16:21:18] [pool-3-thread-277/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:22:24] [User Authenticator #13/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[16:22:24] [Server thread/INFO]: biologit[/86.128.225.7:56621] logged in with entity id 91386 at ([world]233.69999998807907, 65.0, 240.76249998807907)
+[16:24:43] [Server thread/INFO]: biologit issued server command: /mods
+[16:24:46] [Server thread/INFO]: biologit issued server command: /help airships
+[16:24:49] [Server thread/INFO]: biologit issued server command: /help a
+[16:24:51] [Server thread/INFO]: biologit issued server command: /help
+[16:25:20] [pool-3-thread-287/INFO]: [Vault] Checking for Updates ... 
+[16:25:20] [Server thread/INFO]: Saving...
+[16:25:20] [Server thread/INFO]: Saved the world
+[16:25:20] [pool-3-thread-287/INFO]: [Vault] No new version available
+[16:26:00] [Server thread/INFO]: biologit lost connection: Disconnected
+[16:26:00] [Server thread/INFO]: biologit left the game.
+[16:26:02] [User Authenticator #14/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[16:26:02] [Server thread/INFO]: biologit[/86.128.225.7:56870] logged in with entity id 91616 at ([world]180.3148371897405, 65.9375, 287.57668293618127)
+[16:26:18] [pool-3-thread-287/INFO]: [BuycraftX] Fetching all due players...
+[16:26:20] [pool-3-thread-287/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:28:11] [Server thread/INFO]: biologit lost connection: Disconnected
+[16:28:11] [Server thread/INFO]: biologit left the game.
+[16:29:15] [User Authenticator #15/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[16:29:15] [Server thread/INFO]: biologit[/86.128.225.7:57117] logged in with entity id 91742 at ([world]197.39701716131813, 63.9375, 275.57760494782724)
+[16:31:20] [pool-3-thread-288/INFO]: [BuycraftX] Fetching all due players...
+[16:31:22] [pool-3-thread-288/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:33:27] [Server thread/INFO]: biologit issued server command: /home home
+[16:33:42] [Server thread/INFO]: biologit issued server command: /back
+[16:34:55] [Server thread/INFO]: biologit issued server command: /home home
+[16:36:22] [pool-3-thread-288/INFO]: [BuycraftX] Fetching all due players...
+[16:36:24] [pool-3-thread-288/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:37:22] [Server thread/INFO]: biologit issued server command: /back
+[16:37:27] [Server thread/INFO]: biologit issued server command: /back
+[16:37:35] [Server thread/INFO]: biologit issued server command: /back
+[16:38:00] [Server thread/INFO]: biologit issued server command: /back
+[16:38:45] [Server thread/INFO]: biologit issued server command: /back
+[16:41:24] [pool-3-thread-288/INFO]: [BuycraftX] Fetching all due players...
+[16:41:25] [pool-3-thread-288/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:44:04] [Server thread/INFO]: biologit issued server command: /home home
+[16:44:09] [Server thread/INFO]: biologit issued server command: /back
+[16:44:37] [Server thread/INFO]: biologit issued server command: /seethome andesite
+[16:44:41] [Server thread/INFO]: biologit issued server command: /sethome andesite
+[16:44:52] [Server thread/INFO]: biologit issued server command: /home home
+[16:46:25] [pool-3-thread-288/INFO]: [BuycraftX] Fetching all due players...
+[16:46:27] [pool-3-thread-288/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:49:24] [Server thread/INFO]: biologit lost connection: Disconnected
+[16:49:24] [Server thread/INFO]: biologit left the game.
+[16:50:50] [User Authenticator #16/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[16:50:50] [Server thread/INFO]: biologit[/86.128.225.7:58616] logged in with entity id 94964 at ([world]239.40963518959035, 67.0, 181.35097333423778)
+[16:51:27] [pool-3-thread-295/INFO]: [BuycraftX] Fetching all due players...
+[16:51:29] [pool-3-thread-295/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:51:32] [Server thread/INFO]: biologit issued server command: /back
+[16:51:35] [Server thread/INFO]: biologit issued server command: /home home
+[16:53:38] [Server thread/INFO]: biologit issued server command: /home home
+[16:55:20] [Server thread/INFO]: Saving...
+[16:55:20] [Server thread/INFO]: Saved the world
+[16:56:29] [pool-3-thread-295/INFO]: [BuycraftX] Fetching all due players...
+[16:56:30] [pool-3-thread-295/INFO]: [BuycraftX] Fetched due players (0 found).
+[16:58:53] [Server thread/INFO]: biologit issued server command: /home home
+[17:01:30] [pool-3-thread-295/INFO]: [BuycraftX] Fetching all due players...
+[17:01:32] [pool-3-thread-295/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:06:32] [pool-3-thread-295/INFO]: [BuycraftX] Fetching all due players...
+[17:06:34] [pool-3-thread-295/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:07:54] [Server thread/INFO]: biologit issued server command: /home home
+[17:08:17] [Server thread/INFO]: biologit lost connection: Disconnected
+[17:08:17] [Server thread/INFO]: biologit left the game.
+[17:11:33] [pool-3-thread-295/INFO]: [BuycraftX] Fetching all due players...
+[17:11:35] [pool-3-thread-295/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:13:40] [User Authenticator #17/INFO]: UUID of player biologit is 7589aa82-0df0-4d79-849c-195898a29ee0
+[17:13:40] [Server thread/INFO]: biologit[/86.128.225.7:60337] logged in with entity id 97236 at ([world]233.33616120735772, 65.0, 239.62070984376228)
+[17:16:35] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:16:37] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:21:37] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:21:38] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:24:06] [Server thread/INFO]: biologit lost connection: Disconnected
+[17:24:06] [Server thread/INFO]: biologit left the game.
+[17:25:20] [Server thread/INFO]: Saving...
+[17:25:20] [Server thread/INFO]: Saved the world
+[17:26:38] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:26:40] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:31:40] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:31:41] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:36:41] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:36:43] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:41:43] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:41:45] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:46:45] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:46:47] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:51:46] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:51:48] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:54:57] [User Authenticator #18/INFO]: UUID of player ncajoles is 1f228c47-1e6a-4225-96c4-435aad47cdad
+[17:54:57] [Server thread/INFO]: ncajoles[/95.147.204.48:58685] logged in with entity id 98372 at ([world]225.98599123813688, 66.5, 132.05057578741312)
+[17:55:05] [Netty Epoll Server IO #0/INFO]: <ncajoles> wassssup
+[17:55:20] [Server thread/INFO]: Saving...
+[17:55:20] [Server thread/INFO]: Saved the world
+[17:56:48] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[17:56:50] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:01:05] [Server thread/INFO]: [Lockette] ncajoles has protected a block or door.
+[18:01:21] [Server thread/INFO]: [Lockette] ncajoles has protected a block or door.
+[18:01:50] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:01:52] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:06:52] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:06:54] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:11:54] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:11:56] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:16:56] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:16:57] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:21:57] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:21:59] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:25:20] [Server thread/INFO]: Saving...
+[18:25:20] [Server thread/INFO]: Saved the world
+[18:26:59] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:27:00] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:32:00] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:32:02] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:37:02] [pool-3-thread-302/INFO]: [BuycraftX] Fetching all due players...
+[18:37:04] [pool-3-thread-302/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:37:32] [Server thread/INFO]: ncajoles lost connection: Disconnected
+[18:37:32] [Server thread/INFO]: ncajoles left the game.
+[18:38:33] [Server thread/INFO]: CaptainBetts lost connection: Disconnected
+[18:38:33] [Server thread/INFO]: CaptainBetts left the game.
+[18:38:36] [User Authenticator #19/INFO]: UUID of player CaptainBetts is 6bbb8b68-e1de-42e2-911e-8075b2a8d19e
+[18:38:36] [Server thread/INFO]: CaptainBetts[/88.202.251.56:55097] logged in with entity id 100377 at ([world]353.69999998807907, 86.0, 264.61245974362964)
+[18:42:04] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[18:42:06] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:43:31] [Server thread/WARN]: CaptainBetts moved wrongly!
+[18:45:44] [Server thread/WARN]: CaptainBetts moved wrongly!
+[18:46:12] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[18:46:25] [Server thread/INFO]: CaptainBetts was blown up by Creeper
+[18:46:30] [Server thread/INFO]: CaptainBetts issued server command: /back
+[18:47:06] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[18:47:08] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:47:13] [Server thread/INFO]: CaptainBetts issued server command: /back
+[18:47:17] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[18:47:32] [Server thread/INFO]: CaptainBetts issued server command: /back
+[18:51:23] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[18:52:08] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[18:52:10] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:55:20] [Server thread/INFO]: Saving...
+[18:55:20] [Server thread/INFO]: Saved the world
+[18:57:10] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[18:57:12] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[18:59:25] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[18:59:35] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:00:51] [Server thread/WARN]: CaptainBetts moved wrongly!
+[19:02:12] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:02:14] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:06:22] [Server thread/WARN]: CaptainBetts moved wrongly!
+[19:07:14] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:07:16] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:12:16] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:12:17] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:17:17] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:17:18] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:19:53] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:20:21] [Server thread/INFO]: CaptainBetts issued server command: /home wigs
+[19:20:42] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[19:22:18] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:22:20] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:25:20] [Server thread/INFO]: Saving...
+[19:25:20] [Server thread/INFO]: Saved the world
+[19:25:46] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[19:26:17] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:27:20] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:27:20] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:27:22] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:27:49] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:29:53] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:29:59] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:31:12] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:31:26] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:32:22] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:32:24] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:33:28] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:33:38] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:37:24] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:37:26] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:38:09] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:38:39] [Server thread/INFO]: CaptainBetts issued server command: /back
+[19:40:03] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[19:41:39] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[19:41:54] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[19:42:26] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:42:27] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:44:51] [Server thread/INFO]: [Lockette] CaptainBetts has protected a block or door.
+[19:46:37] [Server thread/INFO]: [Lockette] CaptainBetts has released a container.
+[19:47:27] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:47:29] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:51:21] [Server thread/INFO]: CaptainBetts issued server command: /spawn
+[19:52:29] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:52:31] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[19:55:20] [Server thread/INFO]: Saving...
+[19:55:20] [Server thread/INFO]: Saved the world
+[19:57:31] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[19:57:33] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:00:10] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[20:02:32] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[20:02:34] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:03:45] [Server thread/WARN]: CaptainBetts moved wrongly!
+[20:05:11] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[20:05:37] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[20:05:45] [Server thread/INFO]: CaptainBetts issued server command: /back
+[20:07:34] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[20:07:36] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:12:36] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[20:12:38] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:17:37] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[20:17:39] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:20:20] [Server thread/INFO]: CaptainBetts lost connection: Disconnected
+[20:20:21] [Server thread/INFO]: CaptainBetts left the game.
+[20:22:39] [pool-3-thread-330/INFO]: [BuycraftX] Fetching all due players...
+[20:22:41] [pool-3-thread-330/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:23:08] [User Authenticator #20/INFO]: UUID of player CaptainBetts is 6bbb8b68-e1de-42e2-911e-8075b2a8d19e
+[20:23:08] [Server thread/INFO]: CaptainBetts[/88.202.251.56:56090] logged in with entity id 292419 at ([world]230.1676322947797, 65.0, 259.97716428101467)
+[20:25:20] [Server thread/INFO]: Saving...
+[20:25:20] [Server thread/INFO]: Saved the world
+[20:27:40] [pool-3-thread-361/INFO]: [BuycraftX] Fetching all due players...
+[20:27:42] [pool-3-thread-361/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:32:42] [pool-3-thread-361/INFO]: [BuycraftX] Fetching all due players...
+[20:32:43] [pool-3-thread-361/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:37:23] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[20:37:43] [pool-3-thread-361/INFO]: [BuycraftX] Fetching all due players...
+[20:37:46] [pool-3-thread-361/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:39:27] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[20:42:46] [pool-3-thread-361/INFO]: [BuycraftX] Fetching all due players...
+[20:42:48] [pool-3-thread-361/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:43:14] [Server thread/INFO]: [Lockette] CaptainBetts has protected a block or door.
+[20:43:21] [Server thread/INFO]: [Lockette] CaptainBetts has protected a block or door.
+[20:43:47] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[20:44:41] [Server thread/INFO]: CaptainBetts issued server command: /back
+[20:45:46] [Server thread/WARN]: CaptainBetts moved wrongly!
+[20:46:01] [Server thread/INFO]: CaptainBetts issued server command: /afk
+[20:47:48] [pool-3-thread-361/INFO]: [BuycraftX] Fetching all due players...
+[20:47:49] [pool-3-thread-361/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:52:49] [pool-3-thread-361/INFO]: [BuycraftX] Fetching all due players...
+[20:52:51] [pool-3-thread-361/INFO]: [BuycraftX] Fetched due players (0 found).
+[20:55:20] [Server thread/INFO]: Saving...
+[20:55:20] [Server thread/INFO]: Saved the world
+[20:57:51] [pool-3-thread-371/INFO]: [BuycraftX] Fetching all due players...
+[20:57:52] [pool-3-thread-371/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:02:52] [pool-3-thread-371/INFO]: [BuycraftX] Fetching all due players...
+[21:02:53] [pool-3-thread-371/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:03:33] [Server thread/INFO]: CONSOLE issued server command: /list 
+[21:03:33] [Server thread/INFO]: There are 1 out of maximum 400 players online.
+[21:03:33] [Server thread/INFO]: default: [AFK]~Betts
+[21:05:00] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[21:05:00] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[21:05:38] [User Authenticator #21/INFO]: UUID of player GTBebbo is ba0e0e8b-814c-4a2d-8efd-41dadf196013
+[21:05:38] [Server thread/INFO]: GTBebbo[/92.11.101.19:51119] logged in with entity id 294864 at ([world]320.5, 77.0, 275.5)
+[21:05:46] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> Yo Yo Yo
+[21:06:43] [Server thread/INFO]: [Lockette] GTBebbo has protected a block or door.
+[21:06:47] [Server thread/INFO]: [Lockette] GTBebbo has released a container.
+[21:06:50] [Server thread/INFO]: [Lockette] GTBebbo has protected a block or door.
+[21:07:16] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[21:07:53] [pool-3-thread-374/INFO]: [BuycraftX] Fetching all due players...
+[21:07:55] [pool-3-thread-374/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:08:57] [Netty Epoll Server IO #1/INFO]: <~Betts> woo
+[21:09:00] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> wb
+[21:09:03] [Netty Epoll Server IO #1/INFO]: <~Betts> mmm
+[21:09:34] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[21:09:49] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:10:42] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> what happened to the villager?
+[21:10:49] [Netty Epoll Server IO #1/INFO]: <~Betts> Idk
+[21:10:57] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> coz its dead
+[21:11:43] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[21:11:56] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:12:55] [pool-3-thread-374/INFO]: [BuycraftX] Fetching all due players...
+[21:12:56] [pool-3-thread-374/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:14:44] [Server thread/INFO]: GTBebbo issued server command: /spawn
+[21:15:54] [Server thread/INFO]: GTBebbo issued server command: /home h
+[21:16:17] [Server thread/INFO]: GTBebbo issued server command: /back
+[21:17:04] [Server thread/INFO]: GTBebbo issued server command: /home dock
+[21:17:56] [pool-3-thread-374/INFO]: [BuycraftX] Fetching all due players...
+[21:17:58] [pool-3-thread-374/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:18:04] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[21:19:17] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> why don't i have perms for movecraft?
+[21:19:19] [Netty Epoll Server IO #1/INFO]: <~Betts> idk
+[21:19:29] [Netty Epoll Server IO #1/INFO]: <~Betts> If you don't, I don't either
+[21:19:40] [Server thread/WARN]: CaptainBetts moved wrongly!
+[21:20:53] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> should i add them back to us?
+[21:20:56] [Netty Epoll Server IO #1/INFO]: <~Betts> Ok
+[21:22:46] [User Authenticator #22/INFO]: UUID of player Chinbob2515 is d1639200-231d-40e0-9abc-ec97d4a9129b
+[21:22:46] [Server thread/INFO]: Chinbob2515[/81.156.189.188:52923] logged in with entity id 299777 at ([world]1293.699999988079, 44.0, 1845.300000011921)
+[21:22:47] [Netty Epoll Server IO #1/INFO]: <~Betts> woo
+[21:22:57] [Netty Epoll Server IO #0/INFO]: <~Chinbob> heyyyyyyy
+[21:22:58] [pool-3-thread-379/INFO]: [BuycraftX] Fetching all due players...
+[21:23:00] [pool-3-thread-379/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:23:01] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> Hi
+[21:23:11] [Netty Epoll Server IO #0/INFO]: <~Chinbob> movecraft permissions not working somehow?
+[21:23:16] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> idk why we don't have Movecraft perms
+[21:23:20] [Netty Epoll Server IO #0/INFO]: <~Chinbob> how?
+[21:23:26] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> it says we have them in the config
+[21:23:49] [Netty Epoll Server IO #0/INFO]: <~Chinbob> it does
+[21:23:55] [Netty Epoll Server IO #0/INFO]: <~Chinbob> what exactly is the problem?
+[21:24:26] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> it says insufficient perms when you right click the sign
+[21:24:32] [Server thread/INFO]: Chinbob2515 issued server command: /tpa GT
+[21:24:37] [Server thread/INFO]: GTBebbo issued server command: /tpaccept
+[21:24:41] [Netty Epoll Server IO #0/INFO]: <~Chinbob> it's probably just a specific craft
+[21:25:19] [Netty Epoll Server IO #0/INFO]: <~Chinbob> try placing the sign so I can see?
+[21:25:20] [Server thread/INFO]: Saving...
+[21:25:20] [Server thread/INFO]: Saved the world
+[21:25:28] [Server thread/INFO]: [Movecraft] Player Chinbob2515 piloted a craft of type Airskiff with size 134 at location: 391 x, 280 z
+[21:25:36] [Netty Epoll Server IO #0/INFO]: <~Chinbob> I can right click
+[21:25:38] [Server thread/INFO]: Chinbob2515 issued server command: /release
+[21:25:38] [Server thread/INFO]: [Movecraft] Player Chinbob2515 has released a craft of type Airskiff with size 134 at coordinates : 391 x , 280 z
+[21:25:41] [Netty Epoll Server IO #0/INFO]: <~Chinbob> try now
+[21:25:42] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> yeh, coz u is op
+[21:25:46] [Netty Epoll Server IO #0/INFO]: <~Chinbob> no I'm not
+[21:25:54] [Server thread/INFO]: Chinbob2515 issued server command: /tpahere Be
+[21:25:57] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[21:25:58] [Netty Epoll Server IO #0/INFO]: <~Chinbob> charlie try?
+[21:26:01] [Server thread/WARN]: CaptainBetts moved wrongly!
+[21:26:01] [Server thread/WARN]: CaptainBetts moved wrongly!
+[21:26:09] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> wait, you have your own permission group
+[21:26:36] [Netty Epoll Server IO #1/INFO]: <~Betts> Am I needed
+[21:26:44] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:26:48] [Netty Epoll Server IO #0/INFO]: <~Chinbob> let charlie try the sign?
+[21:26:55] [Netty Epoll Server IO #1/INFO]: <~Betts> tell me when it's ready
+[21:27:13] [Netty Epoll Server IO #0/INFO]: <~Chinbob> also, my permissions are only to have some more homes (because I let my sister play every so often)
+[21:27:20] [Netty Epoll Server IO #0/INFO]: <~Chinbob> and to set things worth
+[21:27:26] [Netty Epoll Server IO #0/INFO]: <~Chinbob> so nothing to do with movecraft
+[21:27:31] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> ok
+[21:27:40] [Netty Epoll Server IO #0/INFO]: <~Chinbob> charlie, try?
+[21:27:40] [Server thread/WARN]: CaptainBetts moved wrongly!
+[21:27:43] [Server thread/INFO]: Chinbob2515 issued server command: /tpahere Be
+[21:27:46] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[21:27:47] [Server thread/INFO]: [Movecraft] Player CaptainBetts piloted a craft of type Airskiff with size 134 at location: 391 x, 280 z
+[21:27:49] [Netty Epoll Server IO #1/INFO]: <~Betts> yeah
+[21:27:52] [Netty Epoll Server IO #1/INFO]: <~Betts> works
+[21:27:57] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> hmm
+[21:27:57] [Server thread/INFO]: Chinbob2515 issued server command: /tpa Be
+[21:28:00] [pool-3-thread-379/INFO]: [BuycraftX] Fetching all due players...
+[21:28:00] [Server thread/INFO]: CaptainBetts issued server command: /tpaccept
+[21:28:01] [pool-3-thread-379/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:28:06] [Server thread/INFO]: [Movecraft] Player CaptainBetts has released a craft of type Airskiff with size 134 at coordinates : 391 x , 280 z
+[21:28:06] [Server thread/INFO]: [Movecraft] Player CaptainBetts piloted a craft of type Airskiff with size 134 at location: 391 x, 280 z
+[21:28:28] [Server thread/INFO]: Configuration reloaded.
+[21:28:32] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:28:33] [Netty Epoll Server IO #0/INFO]: <~Chinbob> found it
+[21:28:38] [Netty Epoll Server IO #0/INFO]: <~Chinbob> it's because you're a scrub
+[21:28:48] [Server thread/WARN]: CaptainBetts moved wrongly!
+[21:28:59] [Netty Epoll Server IO #0/INFO]: <~Chinbob> and corrected it
+[21:29:03] [Server thread/INFO]: [Movecraft] Player CaptainBetts has released a craft of type Airskiff with size 134 at coordinates : 391 x , 280 z
+[21:29:16] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> lol, just did the same correction
+[21:29:36] [Server thread/INFO]: Configuration reloaded.
+[21:29:40] [Server thread/INFO]: [Movecraft] Player GTBebbo piloted a craft of type Airskiff with size 134 at location: 391 x, 280 z
+[21:30:09] [Server thread/INFO]: CaptainBetts issued server command: /home home
+[21:30:13] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:30:25] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:30:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2121ms behind, skipping 42 tick(s)
+[21:30:31] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:30:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2626ms behind, skipping 52 tick(s)
+[21:31:12] [Netty Epoll Server IO #0/INFO]: <~Chinbob> I could tell you why you edited the permission file wrong
+[21:31:29] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> what did i do wrong?
+[21:31:30] [Netty Epoll Server IO #0/INFO]: <~Chinbob> or I could just let you not be able to give yourself permissions correctly
+[21:31:42] [Server thread/INFO]: GTBebbo issued server command: /relase
+[21:31:45] [Netty Epoll Server IO #0/INFO]: <~Chinbob> because you keep giving yourself very cheaty permissions
+[21:31:46] [Server thread/INFO]: GTBebbo issued server command: /release
+[21:31:46] [Server thread/INFO]: [Movecraft] Player GTBebbo has released a craft of type Airskiff with size 134 at coordinates : 391 x , 280 z
+[21:31:54] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:31:58] [Netty Epoll Server IO #1/INFO]: <~Betts> like?
+[21:32:05] [Netty Epoll Server IO #0/INFO]: <~Chinbob> essentials.*
+[21:32:09] [Netty Epoll Server IO #0/INFO]: <~Chinbob> worldedit.*
+[21:32:12] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> nah, it was only coz Charlie needed me to move my appartments to the left slightly
+[21:32:21] [Netty Epoll Server IO #0/INFO]: <~Chinbob> essentials.*
+[21:32:26] [Netty Epoll Server IO #0/INFO]: <~Chinbob> is not needed to use worldedit
+[21:32:30] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> and the world edit one was set to false
+[21:32:41] [Server thread/INFO]: CaptainBetts issued server command: /back
+[21:32:47] [Netty Epoll Server IO #0/INFO]: <~Chinbob> generally I prefer if you temporarily op yourself
+[21:32:52] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> ok
+[21:32:53] [Server thread/ERROR]: "Silently" catching entity tracking error.
+net.minecraft.server.v1_10_R1.ReportedException: Adding entity to track
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:139) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.EntityTracker.track(EntityTracker.java:80) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldManager.a(WorldManager.java:19) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.b(World.java:968) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.b(WorldServer.java:1106) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.addEntity(World.java:961) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:508) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:504) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.ChunkRegionLoader.a(ChunkRegionLoader.java:515) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MobSpawnerAbstract.c(MobSpawnerAbstract.java:98) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.TileEntityMobSpawner.E_(SourceFile:90) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.World.tickEntities(World.java:1387) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.WorldServer.tickEntities(WorldServer.java:613) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:744) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:360) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:646) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:550) [craftbukkit.jar:git-Bukkit-0ebb9c7]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+Caused by: java.lang.IllegalStateException: Entity is already tracked!
+	at net.minecraft.server.v1_10_R1.EntityTracker.addEntity(EntityTracker.java:106) ~[craftbukkit.jar:git-Bukkit-0ebb9c7]
+	... 17 more
+[21:32:56] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> now i know
+[21:33:00] [Netty Epoll Server IO #0/INFO]: <~Chinbob> also, why essentials.*
+[21:33:02] [pool-3-thread-379/INFO]: [BuycraftX] Fetching all due players...
+[21:33:04] [pool-3-thread-379/INFO]: [BuycraftX] Fetched due players (0 found).
+[21:33:19] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> i think that was when i was only getting 1 home or something
+[21:33:22] [Server thread/WARN]: CaptainBetts moved wrongly!
+[21:33:24] [Netty Epoll Server IO #1/INFO]: <~TheChosenJuan> it was ages ago
+[21:33:34] [Netty Epoll Server IO #0/INFO]: <~Chinbob> well
+[21:33:39] [Netty Epoll Server IO #0/INFO]: <~Chinbob> I do edit the permission file
+[21:33:41] [Netty Epoll Server IO #0/INFO]: <~Chinbob> so just
+[21:33:42] [Netty Epoll Server IO #0/INFO]: <~Chinbob> no
+[21:33:46] [Netty Epoll Server IO #0/INFO]: <~Chinbob> nooooooo

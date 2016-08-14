@@ -1,8 +1,8 @@
 lastAccountName: ncajoles
 timestamps:
-  login: 1470037472612
-  logout: 1470046627787
-ipAddress: 95.148.33.89
+  login: 1471193697412
+  logout: 1471196252046
+ipAddress: 95.147.204.48
 lastlocation:
   world: world
   x: 218.5
@@ -12,8 +12,8 @@ lastlocation:
   pitch: 0.0
 logoutlocation:
   world: world
-  x: 225.98599123813688
-  y: 66.5
-  z: 132.05057578741312
-  yaw: -349.63257
-  pitch: 18.749989
+  x: 241.78859040270498
+  y: 64.1212968405392
+  z: 269.29367439184756
+  yaw: -219.58862
+  pitch: 10.350099

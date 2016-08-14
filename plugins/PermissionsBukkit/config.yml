@@ -30,6 +30,8 @@ users:
   d1639200-231d-40e0-9abc-ec97d4a9129b:
     permissions:
       essentials.sethome.multiple.staff: true
+      essentials.eco.*: true
+      essentials.setworth: true
     groups:
     - default
     name: Chinbob2515
@@ -56,6 +58,7 @@ groups:
       essentials.sell: true
       essentials.worth: true
       essentials.afk: true
+      essentials.eco.loan: true
       essentials.depth: true
       essentials.getpos: true
       essentials.help: true
@@ -98,6 +101,10 @@ groups:
       movecraft.movecraft: true
       movecraft.movecraft.release: true
       movecraft.commands.release: true
+      movecraft.movecraft.rotateright: true
+      movecraft.commands.rotateright: true
+      movecraft.movecraft.rotateleft: true
+      movecraft.commands.rotateleft: true
       movecraft.release: true
       movecraft.aircraft.*: true
       movecraft.ship.*: true
@@ -139,6 +146,15 @@ groups:
       movecraft.fastairskiff.remote: true
       movecraft.fastairskiff.turn: true
       movecraft.fastairskiff.move: true
+      movecraft.vfastairskiff.info: true
+      movecraft.vfastairskiff.setname: true
+      movecraft.vfastairskiff.size: true
+      movecraft.vfastairskiff: true
+      movecraft.vfastairskiff.release: true
+      movecraft.vfastairskiff.pilot: true
+      movecraft.vfastairskiff.remote: true
+      movecraft.vfastairskiff.turn: true
+      movecraft.vfastairskiff.move: true
       movecraft.bigairskiff.info: true
       movecraft.bigairskiff.setname: true
       movecraft.bigairskiff.size: true
@@ -201,6 +217,42 @@ groups:
       movecraft.UFO.remote: true
       movecraft.UFO.turn: true
       movecraft.UFO.move: true
+      movecraft.elevator.info: true
+      movecraft.elevator.setname: true
+      movecraft.elevator.size: true
+      movecraft.elevator: true
+      movecraft.elevator.release: true
+      movecraft.elevator.pilot: true
+      movecraft.elevator.remote: true
+      movecraft.elevator.turn: true
+      movecraft.elevator.move: true
+      movecraft.fastelevator.info: true
+      movecraft.fastelevator.setname: true
+      movecraft.fastelevator.size: true
+      movecraft.fastelevator: true
+      movecraft.fastelevator.release: true
+      movecraft.fastelevator.pilot: true
+      movecraft.fastelevator.remote: true
+      movecraft.fastelevator.turn: true
+      movecraft.fastelevator.move: true
+      movecraft.WMD.info: true
+      movecraft.WMD.setname: true
+      movecraft.WMD.size: true
+      movecraft.WMD: true
+      movecraft.WMD.release: true
+      movecraft.WMD.pilot: true
+      movecraft.WMD.remote: true
+      movecraft.WMD.turn: true
+      movecraft.WMD.move: true
+      movecraft.Turret.info: true
+      movecraft.Turret.setname: true
+      movecraft.Turret.size: true
+      movecraft.Turret: true
+      movecraft.Turret.release: true
+      movecraft.Turret.pilot: true
+      movecraft.Turret.remote: true
+      movecraft.Turret.turn: true
+      movecraft.Turret.move: true
   admin:
     permissions:
       permissions.*: true

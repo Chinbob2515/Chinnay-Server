@@ -595,7 +595,7 @@ command-costs:
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, 
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
-currency-symbol: '$'
+currency-symbol: '(NOOT DOLLARS)'
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
@@ -627,7 +627,7 @@ minimum-pay-amount: 0.001
 # For 1.234,50 use de-DE
 # For 1,234.50 use en-US
 # For 1'234,50 use fr-ch
-#currency-symbol-format-locale: en-US
+currency-symbol-format-locale: en-GB
 
 ############################################################
 # +------------------------------------------------------+ #

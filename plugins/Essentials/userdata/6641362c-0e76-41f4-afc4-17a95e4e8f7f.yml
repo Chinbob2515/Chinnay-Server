@@ -1,38 +1,31 @@
 lastlocation:
   world: world
-  x: -3899.4911339872556
-  y: 70.0
-  z: 706.1233699522758
-  yaw: 112.81872
-  pitch: 14.699966
+  x: -3559.849036480114
+  y: 77.0
+  z: 741.3000000119209
+  yaw: -93.280914
+  pitch: 23.099976
 lastAccountName: racsopacso
 timestamps:
-  login: 1470780161265
-  logout: 1470781421005
-  lastteleport: 1470780802327
+  login: 1470937491364
+  logout: 1470937680291
+  lastteleport: 1470937577092
 ipAddress: 84.92.102.99
 logoutlocation:
   world: world
-  x: -1414.465684188069
-  y: 73.0
-  z: 817.5377082774819
-  yaw: 332.40002
-  pitch: 33.600033
+  x: -3576.141963425669
+  y: 106.0
+  z: 584.0489808477876
+  yaw: 307.5187
+  pitch: 17.399939
 homes:
-  darien:
-    world: world
-    x: -3899.4911339872556
-    y: 70.0
-    z: 706.1233699522758
-    yaw: 112.81872
-    pitch: 14.699966
   godheim:
     world: world
-    x: -3532.5
+    x: -3534.7448088043275
     y: 74.0
-    z: 733.5
-    yaw: 96.018715
-    pitch: -32.850018
+    z: 736.9784342120325
+    yaw: 92.71869
+    pitch: 6.4499826
   mana_wastes:
     world: world
     x: -3970.079036851549
@@ -40,13 +33,6 @@ homes:
     z: 1019.8836877406442
     yaw: 61.06871
     pitch: 22.64998
-  native_village:
-    world: world
-    x: -4071.577000289448
-    y: 63.0
-    z: 844.9877052663057
-    yaw: 138.46884
-    pitch: 11.6999855
   skylands:
     world: world
     x: -1413.2130384499364
@@ -54,16 +40,53 @@ homes:
     z: 838.2644845815163
     yaw: -181.64989
     pitch: 31.199947
-mail:
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheep
-- §6[§rChinbob2515§6] §rsheept
-- §6[§rChinbob2515§6] §rsheept
-- §6[§rChinbob2515§6] §rsheep
+  native_village:
+    world: world
+    x: -4075.917256505093
+    y: 73.9375
+    z: 767.3479712795324
+    yaw: 113.77078
+    pitch: 41.484253
+  spawn_shop:
+    world: world
+    x: 226.89717179273143
+    y: 63.9375
+    z: 266.66836221560135
+    yaw: 121.57493
+    pitch: 21.011381
+  atlantis:
+    world: world
+    x: 1288.5325088898044
+    y: 56.0
+    z: 1863.8295270779588
+    yaw: 103.79937
+    pitch: 44.10001
+  jungle:
+    world: world
+    x: 1838.0402755423067
+    y: 72.0
+    z: -482.30620526547494
+    yaw: 314.47485
+    pitch: 30.611652
+  swamples:
+    world: world
+    x: 1764.5064296901282
+    y: 63.0
+    z: -149.23009408400753
+    yaw: 180.0169
+    pitch: 17.549938
+  ziggurat_control:
+    world: world
+    x: -3550.1766372406014
+    y: 74.0
+    z: 729.9735433423406
+    yaw: 13.668732
+    pitch: 26.999992
+  ship:
+    world: world
+    x: 1385.609710429657
+    y: 63.0
+    z: 2012.5176452861579
+    yaw: 120.978
+    pitch: 14.55004
+afk: false

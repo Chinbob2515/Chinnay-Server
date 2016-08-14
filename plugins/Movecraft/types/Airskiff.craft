@@ -112,7 +112,7 @@ flyblocks:
         - N2
     [23,154]: # dispensers and hoppers can be used for inventory too, so limit them as well
         - 0.0
-        - 6.0
+        - 7.5
     152: # redstone represents engines
         - 8.0
         - 100.0
